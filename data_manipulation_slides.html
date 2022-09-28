@@ -1,0 +1,2156 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Data manipulation in R</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Elena Quintero" />
+    <script src="libs/header-attrs-2.14/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+name: title
+
+class: inverse, left, middle
+
+&lt;style&gt;
+h1{
+  margin-bottom: 15px;
+}
+h2{
+  margin-bottom: 5px;
+}
+h3{
+  margin-bottom: 5px;
+}
+p{
+  margin-top: 5px;
+}
+&lt;/style&gt;
+
+
+
+
+#  Manejo de datos en R
+
+## Usos de tidyverse
+
+&lt;font size="6"&gt; .large[&amp;nbsp;
+
+Elena Quintero | Curso R AEET | 19 Sept 2022]
+
+---
+
+# Paquetes que usaremos:
+
+
+```r
+install.packages(c("tidyverse", 
+                   "here",
+                   "readxl",    
+                   "tidylog", 
+                   "summarytools",
+                   "knitr"))  
+```
+
+---
+
+### Paquetes incluidos en tidyverse:
+
+```r
+library(tidyverse)
+tidyverse_packages()
+```
+
+```
+##  [1] "broom"         "cli"           "crayon"        "dbplyr"        "dplyr"         "dtplyr"       
+##  [7] "forcats"       "googledrive"   "googlesheets4" "ggplot2"       "haven"         "hms"          
+## [13] "httr"          "jsonlite"      "lubridate"     "magrittr"      "modelr"        "pillar"       
+## [19] "purrr"         "readr"         "readxl"        "reprex"        "rlang"         "rstudioapi"   
+## [25] "rvest"         "stringr"       "tibble"        "tidyr"         "xml2"          "tidyverse"
+```
+
+
+```r
+library(readr)      #leer archivos
+library(readxl)     #leer archivos excel
+library(dplyr)      #manipular datos
+library(tidyr)      #ordenar y trasformar datasets 
+library(stringr)    #manipular caracteres
+library(forcats)    #manipular factores
+library(lubridate)  #manipular fechas
+```
+
+---
+
+### Otros paquetes que utilizaremos:
+
+```r
+library(here)           #refiere la ruta a la carpeta del proyecto
+library(tidylog)        #informa sobre operaciones dplyr y tidyr
+library(summarytools)   #resume de forma clara y rápida datos numéricos y categóricos
+library(knitr)          #reportar datos en varios formatos
+```
+
+---
+
+# Leer datos
+
+- &lt;font size = "6"&gt; Library `base` &lt;/font&gt;
+
+`read.table`, `read.csv`, `readRDS`
+
+Argumentos útiles: sep, dec, comment.char, na.strings, stringsAsFactors
+
+---
+
+# Leer datos
+
+- &lt;font size = "6"&gt; Library `base` &lt;/font&gt;
+
+`read.table`, `read.csv`, `readRDS`
+
+Argumentos útiles: sep, dec, comment.char, na.strings, stringsAsFactors
+
+- &lt;font size = "6"&gt; Library `readr` &lt;/font&gt;
+
+`read_delim`, `read_csv`, `read_csv2`, `read_table`
+
+Más rapido, produce "tibbles", no convierte characteres a factors automaticamente, no usa los nombres de fila.
+
+Argumentos útiles: delim, comment, na, col_types, skip_empty_rows, guess_max
+
+
+---
+
+# Leer datos
+
+- &lt;font size = "6"&gt; Library `base` &lt;/font&gt;
+
+`read.table`, `read.csv`, `readRDS`
+
+Argumentos útiles: sep, dec, comment.char, na.strings, stringsAsFactors
+
+- &lt;font size = "6"&gt; Library `readr` &lt;/font&gt;
+
+`read_delim`, `read_csv`, `read_csv2`, `read_table`
+
+Más rapido, produce "tibbles", no convierte characteres a factors automaticamente, no usa los nombres de fila.
+
+Argumentos útiles: delim, comment, na, col_types, skip_empty_rows, guess_max
+ 
+- &lt;font size = "6"&gt; Library `readxl` &lt;/font&gt;
+
+`read_excel`, `read_xls`, `read_xlsx`
+
+Argumentos útiles: sheet, col_types, skip
+
+---
+
+# Leer datos con `readr`
+
+
+```r
+library(readr)
+```
+
+La función `read_delim()` lee varios tipos de archivo. El argumento delim, especifica el separador.
+
+Además tiene funciones específicas como: 
+
+- `read_csv()`  usa  **' , '**  como campo de separación, y **' . '** para el punto decimal.
+
+- `read_csv2()` usa  **' ; '**  como campo de separación, y **' , '** para el punto decimal.
+
+---
+class: center
+
+# library(here)
+
+La función `here()` permite hacer referencia siempre al directorio donde se encuentra el proyecto.
+
+&lt;img src="https://github.com/allisonhorst/stats-illustrations/blob/main/rstats-artwork/here.png?raw=true" width="50%"/&gt;
+
+.footnote[
+[Allison Horst Illustration](https://github.com/allisonhorst/stats-illustrations)
+]
+
+---
+
+# library(here)
+
+&amp;nbsp;
+
+Ejemplo de uso.
+
+Usando ruta absoluta:
+
+```r
+data &lt;- read_csv("C:/Usuarios/Elena/Documentos/Proyectos/Proyecto_peces/datos/medida_peces.csv")
+```
+
+Usando ruta relativa al proyecto:
+
+```r
+data &lt;- read_csv(here("datos/medida_peces.csv"))
+```
+
+---
+
+# Formato tidy data:
+
+Tres reglas para que los datos estén ordenado:
+
+- Cada variable debe tener su propia columna
+- Cada observación debe tener su propia fila
+- Cada valor debe tener su propia celda
+
+&lt;img src="https://d33wubrfki0l68.cloudfront.net/6f1ddb544fc5c69a2478e444ab8112fb0eea23f8/91adc/images/tidy-1.png"&gt;
+
+[R for Data Science - tidy data](https://r4ds.had.co.nz/tidy-data.html)
+
+---
+
+&lt;font size="5"&gt;[https://datacatalog.worldbank.org/search/dataset/0039597/What-a-Waste-Global-Database](https://datacatalog.worldbank.org/search/dataset/0039597/What-a-Waste-Global-Database)
+
+![](../img/waste_dataset_img.png)
+
+---
+
+### Leer dataset
+
+
+```r
+library(readr)
+library(here)
+
+waste &lt;- read_csv(here("data/country_level_data.csv"))
+```
+
+```
+## Rows: 217 Columns: 28
+## ── Column specification ─────────────────────────────────────────────────────────────────────────────────────
+## Delimiter: ","
+## chr  (5): iso3c, region_id, country_name, income_id, where_is_this_data_measured
+## dbl (23): gdp, population_population_number_of_people, total_msw_total_msw_generated_tons_year, compositi...
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+```
+
+---
+
+
+```r
+#colnames(waste)
+dplyr::glimpse(waste)
+```
+
+```
+## Rows: 217
+## Columns: 28
+## $ iso3c                                                         &lt;chr&gt; "ABW", "AFG", "AGO", "ALB", "AND", "A…
+## $ region_id                                                     &lt;chr&gt; "LCN", "SAS", "SSF", "ECS", "ECS", "M…
+## $ country_name                                                  &lt;chr&gt; "Aruba", "Afghanistan", "Angola", "Al…
+## $ income_id                                                     &lt;chr&gt; "HIC", "LIC", "LMC", "UMC", "HIC", "H…
+## $ gdp                                                           &lt;dbl&gt; 35563.3125, 2057.0623, 8036.6904, 137…
+## $ population_population_number_of_people                        &lt;dbl&gt; 103187, 34656032, 25096150, 2854191, …
+## $ total_msw_total_msw_generated_tons_year                       &lt;dbl&gt; 88132.02, 5628525.37, 4213643.58, 108…
+## $ composition_food_organic_waste_percent                        &lt;dbl&gt; NA, NA, 51.80000, 51.40000, 31.20000,…
+## $ composition_glass_percent                                     &lt;dbl&gt; NA, NA, 6.700000, 4.500000, 8.200000,…
+## $ composition_metal_percent                                     &lt;dbl&gt; NA, NA, 4.400000, 4.800000, 2.600000,…
+## $ composition_other_percent                                     &lt;dbl&gt; NA, NA, 11.5000, 15.2100, 11.6000, 10…
+## $ composition_paper_cardboard_percent                           &lt;dbl&gt; NA, NA, 11.900000, 9.900000, 35.10000…
+## $ composition_plastic_percent                                   &lt;dbl&gt; NA, NA, 13.50000, 9.60000, 11.30000, …
+## $ composition_rubber_leather_percent                            &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 1.26, 0.30, 4…
+## $ composition_wood_percent                                      &lt;dbl&gt; NA, NA, NA, 4.60, NA, NA, 1.09, 0.60,…
+## $ composition_yard_garden_green_waste_percent                   &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 9.95, NA, NA,…
+## $ waste_treatment_anaerobic_digestion_percent                   &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+## $ waste_treatment_compost_percent                               &lt;dbl&gt; NA, NA, NA, NA, NA, 9.00000, NA, NA, …
+## $ waste_treatment_controlled_landfill_percent                   &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 8.90000, NA, …
+## $ waste_treatment_incineration_percent                          &lt;dbl&gt; NA, NA, NA, NA, 52.10000, NA, NA, NA,…
+## $ waste_treatment_landfill_unspecified_percent                  &lt;dbl&gt; NA, NA, NA, NA, NA, 9.00, NA, NA, NA,…
+## $ waste_treatment_open_dump_percent                             &lt;dbl&gt; NA, NA, NA, NA, NA, 62.00000, 22.6000…
+## $ waste_treatment_other_percent                                 &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
+## $ waste_treatment_recycling_percent                             &lt;dbl&gt; 11.00000, NA, NA, NA, NA, 20.00000, 6…
+## $ waste_treatment_sanitary_landfill_landfill_gas_system_percent &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 62.50000, NA,…
+## $ waste_treatment_unaccounted_for_percent                       &lt;dbl&gt; 89.00000, NA, NA, NA, 47.90000, NA, N…
+## $ waste_treatment_waterways_marine_percent                      &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, 0…
+## $ where_is_this_data_measured                                   &lt;chr&gt; NA, "Other", NA, "Some disposal sites…
+```
+
+---
+
+
+```r
+head(waste)
+```
+
+```
+## # A tibble: 6 × 28
+##   iso3c region_id country_name         income_id    gdp population_populat… total_msw_total… composition_foo…
+##   &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;                &lt;chr&gt;      &lt;dbl&gt;               &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+## 1 ABW   LCN       Aruba                HIC       35563.              103187           88132.             NA  
+## 2 AFG   SAS       Afghanistan          LIC        2057.            34656032         5628525.             NA  
+## 3 AGO   SSF       Angola               LMC        8037.            25096150         4213644.             51.8
+## 4 ALB   ECS       Albania              UMC       13724.             2854191         1087447.             51.4
+## 5 AND   ECS       Andorra              HIC       43712.               82431           43000              31.2
+## 6 ARE   MEA       United Arab Emirates HIC       67119.             9770529         5617682              39  
+## # … with 20 more variables: composition_glass_percent &lt;dbl&gt;, composition_metal_percent &lt;dbl&gt;,
+## #   composition_other_percent &lt;dbl&gt;, composition_paper_cardboard_percent &lt;dbl&gt;,
+## #   composition_plastic_percent &lt;dbl&gt;, composition_rubber_leather_percent &lt;dbl&gt;,
+## #   composition_wood_percent &lt;dbl&gt;, composition_yard_garden_green_waste_percent &lt;dbl&gt;,
+## #   waste_treatment_anaerobic_digestion_percent &lt;dbl&gt;, waste_treatment_compost_percent &lt;dbl&gt;,
+## #   waste_treatment_controlled_landfill_percent &lt;dbl&gt;, waste_treatment_incineration_percent &lt;dbl&gt;,
+## #   waste_treatment_landfill_unspecified_percent &lt;dbl&gt;, waste_treatment_open_dump_percent &lt;dbl&gt;, …
+```
+
+---
+
+
+```r
+tail(waste)
+```
+
+```
+## # A tibble: 6 × 28
+##   iso3c region_id country_name income_id    gdp population_population_numb… total_msw_total… composition_foo…
+##   &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;        &lt;chr&gt;      &lt;dbl&gt;                       &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+## 1 WSM   EAS       Samoa        UMC        6211.                      187665           27399.             42.6
+## 2 XKX   ECS       Kosovo       LMC        9724.                     1801800          319000              42  
+## 3 YEM   MEA       Yemen, Rep.  LIC        8270.                    27584212         4836820              65  
+## 4 ZAF   SSF       South Africa UMC       12667.                    51729344        18457232              16.4
+## 5 ZMB   SSF       Zambia       LMC        3201.                    14264756         2608268              NA  
+## 6 ZWE   SSF       Zimbabwe     LIC        3191.                    12500525         1449752              36  
+## # … with 20 more variables: composition_glass_percent &lt;dbl&gt;, composition_metal_percent &lt;dbl&gt;,
+## #   composition_other_percent &lt;dbl&gt;, composition_paper_cardboard_percent &lt;dbl&gt;,
+## #   composition_plastic_percent &lt;dbl&gt;, composition_rubber_leather_percent &lt;dbl&gt;,
+## #   composition_wood_percent &lt;dbl&gt;, composition_yard_garden_green_waste_percent &lt;dbl&gt;,
+## #   waste_treatment_anaerobic_digestion_percent &lt;dbl&gt;, waste_treatment_compost_percent &lt;dbl&gt;,
+## #   waste_treatment_controlled_landfill_percent &lt;dbl&gt;, waste_treatment_incineration_percent &lt;dbl&gt;,
+## #   waste_treatment_landfill_unspecified_percent &lt;dbl&gt;, waste_treatment_open_dump_percent &lt;dbl&gt;, …
+```
+
+---
+
+class: center
+
+# Manejo de datos con tidyverse
+
+&lt;img src= "https://madd.seas.gwu.edu/2021-Fall/class/2-data-wrangling/images/horst_monsters_tidyverse.jpeg", width="90%"&gt;
+
+.footnote[
+[Allison Horst Illustration](https://www.allisonhorst.com/)
+]
+
+---
+
+## Manejo de datos con tidyverse
+
+&amp;nbsp;
+
+
+```r
+library(tidylog)
+```
+Da información de las operaciones que se realizan en el dataset.
+
+---
+
+# El operador 'pipe'
+
+&amp;nbsp;
+
+.pull-left[
+
+`library(magrittr)`
+
+Mecanismo para encadenar funciones.
+
+
+```r
+data %&gt;% function(...)
+```
+
+&amp;nbsp;
+
+&amp;nbsp;
+
+Ahora también implementado en R base como    **|&gt;**
+
+
+```r
+data |&gt; function(...)
+```
+
+]
+
+.pull-right[
+![](https://magrittr.tidyverse.org/logo.png)
+]
+
+
+---
+
+## Funciones de `dplyr`
+
+- `arrange()` - Ordenar variable por casos
+
+- `rename()` - Renombrar variables
+
+- `relocate()` - Reordenar variables
+
+- `select()` - Extraer variables 
+
+
+
+&amp;nbsp;
+
+Ayudas de select:
+
+*Selecciona columnas que...*
+- contains() - *contienen ""*
+- matches() - *coinciden con ""*
+- starts_with() - *empiezan por ""*
+- ends_with() - *acaban por ""*
+- any_of() - *que estén en el set c("","")*
+
+---
+
+Ordernar datos por columnas:
+
+
+```r
+waste %&gt;%
+* arrange(population_population_number_of_people)
+```
+
+```
+## # A tibble: 217 × 28
+##    iso3c region_id country_name           income_id    gdp population_popu… total_msw_total… composition_foo…
+##    &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;                  &lt;chr&gt;      &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 TUV   EAS       Tuvalu                 UMC        3793.            11097            3989.            43.6 
+##  2 NRU   EAS       Nauru                  UMC       11167.            13049            6192.            43.6 
+##  3 VGB   LCN       British Virgin Islands HIC       24216.            20645           21099.             6.5 
+##  4 PLW   EAS       Palau                  HIC       18275.            21503            9427.            26   
+##  5 MAF   LCN       St. Martin (French pa… HIC       30386.            30959           15480.            NA   
+##  6 SMR   ECS       San Marino             HIC       58806.            33203           17175.             5.35
+##  7 GIB   ECS       Gibraltar              HIC       43712.            33623           16954             24.6 
+##  8 TCA   LCN       Turks and Caicos Isla… HIC       28174.            34900              NA             21.8 
+##  9 LIE   ECS       Liechtenstein          HIC       45727.            36545           32382             37.6 
+## 10 SXM   LCN       Sint Maarten (Dutch p… HIC          NA             37685              NA             46   
+## # … with 207 more rows, and 20 more variables: composition_glass_percent &lt;dbl&gt;,
+## #   composition_metal_percent &lt;dbl&gt;, composition_other_percent &lt;dbl&gt;,
+## #   composition_paper_cardboard_percent &lt;dbl&gt;, composition_plastic_percent &lt;dbl&gt;,
+## #   composition_rubber_leather_percent &lt;dbl&gt;, composition_wood_percent &lt;dbl&gt;,
+## #   composition_yard_garden_green_waste_percent &lt;dbl&gt;, waste_treatment_anaerobic_digestion_percent &lt;dbl&gt;,
+## #   waste_treatment_compost_percent &lt;dbl&gt;, waste_treatment_controlled_landfill_percent &lt;dbl&gt;,
+## #   waste_treatment_incineration_percent &lt;dbl&gt;, waste_treatment_landfill_unspecified_percent &lt;dbl&gt;, …
+```
+
+---
+
+Ordernar datos por columnas 
+
+*descendiente*:
+
+
+```r
+waste %&gt;%
+* arrange(desc(population_population_number_of_people))
+```
+
+```
+## # A tibble: 217 × 28
+##    iso3c region_id country_name       income_id    gdp population_populati… total_msw_total… composition_foo…
+##    &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;              &lt;chr&gt;      &lt;dbl&gt;                &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 CHN   EAS       China              UMC       16092.           1400050048       395081376              61.2
+##  2 IND   SAS       India              LMC        6497.           1352617344       189750000              NA  
+##  3 USA   NAC       United States      HIC       61498.            326687488       265224528              14.9
+##  4 IDN   EAS       Indonesia          LMC       10531.            261115456        65200000              53.8
+##  5 BRA   LCN       Brazil             UMC       14596.            208494896        79069584              51.4
+##  6 PAK   SAS       Pakistan           LMC        4571.            193203472        30760000              30  
+##  7 BGD   SAS       Bangladesh         LMC        3196.            155727056        14778497.             80.6
+##  8 NGA   SSF       Nigeria            LMC        4690.            154402176        27614830.             NA  
+##  9 RUS   ECS       Russian Federation UMC       26013.            143201680        60000000              28.4
+## 10 JPN   EAS       Japan              HIC       41310.            126529104        42720000              36  
+## # … with 207 more rows, and 20 more variables: composition_glass_percent &lt;dbl&gt;,
+## #   composition_metal_percent &lt;dbl&gt;, composition_other_percent &lt;dbl&gt;,
+## #   composition_paper_cardboard_percent &lt;dbl&gt;, composition_plastic_percent &lt;dbl&gt;,
+## #   composition_rubber_leather_percent &lt;dbl&gt;, composition_wood_percent &lt;dbl&gt;,
+## #   composition_yard_garden_green_waste_percent &lt;dbl&gt;, waste_treatment_anaerobic_digestion_percent &lt;dbl&gt;,
+## #   waste_treatment_compost_percent &lt;dbl&gt;, waste_treatment_controlled_landfill_percent &lt;dbl&gt;,
+## #   waste_treatment_incineration_percent &lt;dbl&gt;, waste_treatment_landfill_unspecified_percent &lt;dbl&gt;, …
+```
+ 
+---
+
+Ordernar datos por orden jerárquico:
+
+
+```r
+waste %&gt;%
+* arrange(region_id, country_name)
+```
+
+```
+## # A tibble: 217 × 28
+##    iso3c region_id country_name         income_id    gdp population_popula… total_msw_total… composition_foo…
+##    &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;                &lt;chr&gt;      &lt;dbl&gt;              &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 ASM   EAS       American Samoa       UMC       11113.              55599           18989.             19.7
+##  2 AUS   EAS       Australia            HIC       47784.           23789338        13345000              48.4
+##  3 BRN   EAS       Brunei Darussalam    HIC       60866.             423196          216253.             36  
+##  4 KHM   EAS       Cambodia             LMC        3364.           15270790         1089000              66.6
+##  5 CHN   EAS       China                UMC       16092.         1400050048       395081376              61.2
+##  6 FJI   EAS       Fiji                 UMC       10788.             867086          189390.             33.2
+##  7 PYF   EAS       French Polynesia     HIC       60956.             273528          147000              47  
+##  8 GUM   EAS       Guam                 HIC       59075.             159973          141500              27.3
+##  9 HKG   EAS       Hong Kong SAR, China HIC       57216.            7305700         5679816.             35  
+## 10 IDN   EAS       Indonesia            LMC       10531.          261115456        65200000              53.8
+## # … with 207 more rows, and 20 more variables: composition_glass_percent &lt;dbl&gt;,
+## #   composition_metal_percent &lt;dbl&gt;, composition_other_percent &lt;dbl&gt;,
+## #   composition_paper_cardboard_percent &lt;dbl&gt;, composition_plastic_percent &lt;dbl&gt;,
+## #   composition_rubber_leather_percent &lt;dbl&gt;, composition_wood_percent &lt;dbl&gt;,
+## #   composition_yard_garden_green_waste_percent &lt;dbl&gt;, waste_treatment_anaerobic_digestion_percent &lt;dbl&gt;,
+## #   waste_treatment_compost_percent &lt;dbl&gt;, waste_treatment_controlled_landfill_percent &lt;dbl&gt;,
+## #   waste_treatment_incineration_percent &lt;dbl&gt;, waste_treatment_landfill_unspecified_percent &lt;dbl&gt;, …
+```
+
+---
+
+Cambiar nombre columnas:
+
+
+```r
+waste %&gt;%
+* rename(population = population_population_number_of_people,
+         total_waste = total_msw_total_msw_generated_tons_year)
+```
+
+```
+## rename: renamed 2 variables (population, total_waste)
+```
+
+```
+## # A tibble: 217 × 28
+##    iso3c region_id country_name     income_id    gdp population total_waste composition_foo… composition_gla…
+##    &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;            &lt;chr&gt;      &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 ABW   LCN       Aruba            HIC       35563.     103187      88132.             NA              NA   
+##  2 AFG   SAS       Afghanistan      LIC        2057.   34656032    5628525.             NA              NA   
+##  3 AGO   SSF       Angola           LMC        8037.   25096150    4213644.             51.8             6.7 
+##  4 ALB   ECS       Albania          UMC       13724.    2854191    1087447.             51.4             4.5 
+##  5 AND   ECS       Andorra          HIC       43712.      82431      43000              31.2             8.2 
+##  6 ARE   MEA       United Arab Emi… HIC       67119.    9770529    5617682              39               4   
+##  7 ARG   LCN       Argentina        HIC       23550.   42981516   17910550              38.7             3.16
+##  8 ARM   ECS       Armenia          UMC       11020.    2906220     492800              57               3.2 
+##  9 ASM   EAS       American Samoa   UMC       11113.      55599      18989.             19.7             3.4 
+## 10 ATG   LCN       Antigua and Bar… HIC       17966.      96777      30585              46               7   
+## # … with 207 more rows, and 19 more variables: composition_metal_percent &lt;dbl&gt;,
+## #   composition_other_percent &lt;dbl&gt;, composition_paper_cardboard_percent &lt;dbl&gt;,
+## #   composition_plastic_percent &lt;dbl&gt;, composition_rubber_leather_percent &lt;dbl&gt;,
+## #   composition_wood_percent &lt;dbl&gt;, composition_yard_garden_green_waste_percent &lt;dbl&gt;,
+## #   waste_treatment_anaerobic_digestion_percent &lt;dbl&gt;, waste_treatment_compost_percent &lt;dbl&gt;,
+## #   waste_treatment_controlled_landfill_percent &lt;dbl&gt;, waste_treatment_incineration_percent &lt;dbl&gt;,
+## #   waste_treatment_landfill_unspecified_percent &lt;dbl&gt;, waste_treatment_open_dump_percent &lt;dbl&gt;, …
+```
+
+---
+
+Organizar columnas:
+
+
+```r
+waste %&gt;%
+* relocate(country_name, .before = iso3c)
+```
+
+```
+## relocate: columns reordered (country_name, iso3c, region_id, income_id, gdp, …)
+```
+
+```
+## # A tibble: 217 × 28
+##    country_name         iso3c region_id income_id    gdp population_popula… total_msw_total… composition_foo…
+##    &lt;chr&gt;                &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;      &lt;dbl&gt;              &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 Aruba                ABW   LCN       HIC       35563.             103187           88132.             NA  
+##  2 Afghanistan          AFG   SAS       LIC        2057.           34656032         5628525.             NA  
+##  3 Angola               AGO   SSF       LMC        8037.           25096150         4213644.             51.8
+##  4 Albania              ALB   ECS       UMC       13724.            2854191         1087447.             51.4
+##  5 Andorra              AND   ECS       HIC       43712.              82431           43000              31.2
+##  6 United Arab Emirates ARE   MEA       HIC       67119.            9770529         5617682              39  
+##  7 Argentina            ARG   LCN       HIC       23550.           42981516        17910550              38.7
+##  8 Armenia              ARM   ECS       UMC       11020.            2906220          492800              57  
+##  9 American Samoa       ASM   EAS       UMC       11113.              55599           18989.             19.7
+## 10 Antigua and Barbuda  ATG   LCN       HIC       17966.              96777           30585              46  
+## # … with 207 more rows, and 20 more variables: composition_glass_percent &lt;dbl&gt;,
+## #   composition_metal_percent &lt;dbl&gt;, composition_other_percent &lt;dbl&gt;,
+## #   composition_paper_cardboard_percent &lt;dbl&gt;, composition_plastic_percent &lt;dbl&gt;,
+## #   composition_rubber_leather_percent &lt;dbl&gt;, composition_wood_percent &lt;dbl&gt;,
+## #   composition_yard_garden_green_waste_percent &lt;dbl&gt;, waste_treatment_anaerobic_digestion_percent &lt;dbl&gt;,
+## #   waste_treatment_compost_percent &lt;dbl&gt;, waste_treatment_controlled_landfill_percent &lt;dbl&gt;,
+## #   waste_treatment_incineration_percent &lt;dbl&gt;, waste_treatment_landfill_unspecified_percent &lt;dbl&gt;, …
+```
+
+---
+
+(Des)seleccionar variables:
+
+
+```r
+waste %&gt;%
+* select(-region_id)
+```
+
+```
+## select: dropped one variable (region_id)
+```
+
+```
+## # A tibble: 217 × 27
+##    iso3c country_name    income_id    gdp population_popu… total_msw_total… composition_foo… composition_gla…
+##    &lt;chr&gt; &lt;chr&gt;           &lt;chr&gt;      &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 ABW   Aruba           HIC       35563.           103187           88132.             NA              NA   
+##  2 AFG   Afghanistan     LIC        2057.         34656032         5628525.             NA              NA   
+##  3 AGO   Angola          LMC        8037.         25096150         4213644.             51.8             6.7 
+##  4 ALB   Albania         UMC       13724.          2854191         1087447.             51.4             4.5 
+##  5 AND   Andorra         HIC       43712.            82431           43000              31.2             8.2 
+##  6 ARE   United Arab Em… HIC       67119.          9770529         5617682              39               4   
+##  7 ARG   Argentina       HIC       23550.         42981516        17910550              38.7             3.16
+##  8 ARM   Armenia         UMC       11020.          2906220          492800              57               3.2 
+##  9 ASM   American Samoa  UMC       11113.            55599           18989.             19.7             3.4 
+## 10 ATG   Antigua and Ba… HIC       17966.            96777           30585              46               7   
+## # … with 207 more rows, and 19 more variables: composition_metal_percent &lt;dbl&gt;,
+## #   composition_other_percent &lt;dbl&gt;, composition_paper_cardboard_percent &lt;dbl&gt;,
+## #   composition_plastic_percent &lt;dbl&gt;, composition_rubber_leather_percent &lt;dbl&gt;,
+## #   composition_wood_percent &lt;dbl&gt;, composition_yard_garden_green_waste_percent &lt;dbl&gt;,
+## #   waste_treatment_anaerobic_digestion_percent &lt;dbl&gt;, waste_treatment_compost_percent &lt;dbl&gt;,
+## #   waste_treatment_controlled_landfill_percent &lt;dbl&gt;, waste_treatment_incineration_percent &lt;dbl&gt;,
+## #   waste_treatment_landfill_unspecified_percent &lt;dbl&gt;, waste_treatment_open_dump_percent &lt;dbl&gt;, …
+```
+
+---
+
+Seleccionar sólo variables de interés:
+
+
+```r
+waste_select &lt;- waste %&gt;%
+  select(iso3c,
+         region_id,
+*        country = country_name,
+         income_id,
+         gdp,
+         population = population_population_number_of_people,
+         total_waste = total_msw_total_msw_generated_tons_year,
+         starts_with("composition"))  %&gt;%
+* arrange(desc(total_waste))
+```
+
+```
+## select: renamed 3 variables (country, population, total_waste) and dropped 12 variables
+```
+
+---
+
+
+```r
+glimpse(waste_select)
+```
+
+```
+## Rows: 217
+## Columns: 16
+## $ iso3c                                       &lt;chr&gt; "CHN", "USA", "IND", "BRA", "IDN", "RUS", "MEX", "DEU",…
+## $ region_id                                   &lt;chr&gt; "EAS", "NAC", "SAS", "LCN", "EAS", "ECS", "LCN", "ECS",…
+## $ country                                     &lt;chr&gt; "China", "United States", "India", "Brazil", "Indonesia…
+## $ income_id                                   &lt;chr&gt; "UMC", "HIC", "LMC", "UMC", "LMC", "UMC", "UMC", "HIC",…
+## $ gdp                                         &lt;dbl&gt; 16092.301, 61498.371, 6496.808, 14596.246, 10531.198, 2…
+## $ population                                  &lt;dbl&gt; 1400050048, 326687488, 1352617344, 208494896, 261115456…
+## $ total_waste                                 &lt;dbl&gt; 395081376, 265224528, 189750000, 79069584, 65200000, 60…
+## $ composition_food_organic_waste_percent      &lt;dbl&gt; 61.20000, 14.90000, NA, 51.40000, 53.80000, 28.41000, 5…
+## $ composition_glass_percent                   &lt;dbl&gt; 2.100000, 4.400000, NA, 2.400000, 2.500000, 16.820000, …
+## $ composition_metal_percent                   &lt;dbl&gt; 1.10000, 9.00000, NA, 2.90000, 1.80000, 1.83000, 3.4000…
+## $ composition_other_percent                   &lt;dbl&gt; 13.10000, 3.20000, NA, 16.70000, 12.90000, 19.03000, 12…
+## $ composition_paper_cardboard_percent         &lt;dbl&gt; 9.600000, 26.600000, NA, 13.100000, 14.900000, 19.70000…
+## $ composition_plastic_percent                 &lt;dbl&gt; 9.800000, 12.900000, NA, 13.500000, 14.000000, 14.21000…
+## $ composition_rubber_leather_percent          &lt;dbl&gt; 1.30, 9.50, NA, NA, NA, NA, NA, 4.00, 1.00, NA, NA, NA,…
+## $ composition_wood_percent                    &lt;dbl&gt; 1.80, 6.20, NA, NA, NA, NA, NA, NA, 4.00, NA, NA, 7.60,…
+## $ composition_yard_garden_green_waste_percent &lt;dbl&gt; NA, 13.30, NA, NA, NA, NA, NA, NA, NA, NA, NA, 2.70, 14…
+```
+
+---
+
+### Tablas de resumen de datos:
+
+
+```r
+library(summarytools)
+dfSummary(waste_select$region_id)
+```
+
+```
+## waste_select$region_id was converted to a data frame
+```
+
+```
+## Data Frame Summary  
+## waste_select  
+## Dimensions: 217 x 1  
+## Duplicates: 210  
+## 
+## ---------------------------------------------------------------------------------------
+## No   Variable      Stats / Values   Freqs (% of Valid)   Graph     Valid      Missing  
+## ---- ------------- ---------------- -------------------- --------- ---------- ---------
+## 1    region_id     1. EAS           37 (17.1%)           III       217        0        
+##      [character]   2. ECS           58 (26.7%)           IIIII     (100.0%)   (0.0%)   
+##                    3. LCN           42 (19.4%)           III                           
+##                    4. MEA           21 ( 9.7%)           I                             
+##                    5. NAC            3 ( 1.4%)                                         
+##                    6. SAS            8 ( 3.7%)                                         
+##                    7. SSF           48 (22.1%)           IIII                          
+## ---------------------------------------------------------------------------------------
+```
+
+---
+
+
+```r
+waste_select %&gt;%
+  select(population, gdp) %&gt;%
+  dfSummary()
+```
+
+```
+## select: dropped 14 variables (iso3c, region_id, country, income_id, total_waste, …)
+```
+
+```
+## Data Frame Summary  
+## waste_select  
+## Dimensions: 217 x 2  
+## Duplicates: 0  
+## 
+## -------------------------------------------------------------------------------------------------------------
+## No   Variable     Stats / Values                     Freqs (% of Valid)    Graph         Valid      Missing  
+## ---- ------------ ---------------------------------- --------------------- ------------- ---------- ---------
+## 1    population   Mean (sd) : 33643890 (136583825)   217 distinct values   :             217        0        
+##      [numeric]    min &lt; med &lt; max:                                         :             (100.0%)   (0.0%)   
+##                   11097 &lt; 5737723 &lt; 1400050048                             :                                 
+##                   IQR (CV) : 20456779 (4.1)                                :                                 
+##                                                                            :                                 
+## 
+## 2    gdp          Mean (sd) : 22645.9 (22663.6)      213 distinct values   :             216        1        
+##      [numeric]    min &lt; med &lt; max:                                         :             (99.5%)    (0.5%)   
+##                   822.6 &lt; 13465.9 &lt; 117335.6                               :                                 
+##                   IQR (CV) : 31111.8 (1)                                   : :                               
+##                                                                            : : : : : .                       
+## -------------------------------------------------------------------------------------------------------------
+```
+
+---
+
+## Más funciones de `dplyr`
+
+- `distinct()` - Extraer valores únicos
+
+- `recode()` - Recodificar casos de una variable
+
+- `group_by()` - Agrupar datos por casos
+
+- `summarise()` - Resumir datos por casos
+
+- `mutate()` - Crear nuevas variables
+
+- `filter()` - Filtrar datos por casos
+
+- `case_when()` - Filtrar datos por casos
+
+---
+
+Extraer valores únicos (niveles) de una(s) variable(s):
+
+
+```r
+waste_select %&gt;%
+* distinct(income_id)
+```
+
+```
+## distinct: removed 213 rows (98%), 4 rows remaining
+```
+
+```
+## # A tibble: 4 × 1
+##   income_id
+##   &lt;chr&gt;    
+## 1 UMC      
+## 2 HIC      
+## 3 LMC      
+## 4 LIC
+```
+
+Igual a:
+
+```r
+base::unique(waste_select$income_id)
+```
+
+```
+## [1] "UMC" "HIC" "LMC" "LIC"
+```
+
+LIC = Low income;
+LMC = Lower middle income;
+UMC = Upper middle income;
+HIC = High income
+
+---
+
+Recodificar niveles de una variable:
+
+
+```r
+waste_select %&gt;%
+  distinct(region_id)
+```
+
+```
+## distinct: removed 210 rows (97%), 7 rows remaining
+```
+
+```
+## # A tibble: 7 × 1
+##   region_id
+##   &lt;chr&gt;    
+## 1 EAS      
+## 2 NAC      
+## 3 SAS      
+## 4 LCN      
+## 5 ECS      
+## 6 SSF      
+## 7 MEA
+```
+
+- LCN: Latin America &amp; Caribbean 
+- SAS: South Asia 
+- SSF: Sub-Saharan Africa
+- ECS: Europe &amp; Central Asia 
+- MEA: Middle East &amp; North Africa 
+- EAS: East Asia &amp; Pacific
+- NAC: North America
+
+---
+
+Recodificar niveles de una variable:
+
+
+```r
+waste_regions &lt;- waste_select %&gt;%
+  mutate(region_id = recode(region_id,
+                          "LCN" = "Latin_America",
+                          "SAS" = "South_Asia",
+                          "SSF" = "Sub-Saharan_Africa",
+                          "ECS" = "Europe_Central_Asia",
+                          "MEA" = "Middle_East_North_Africa",
+                          "EAS" = "East_Asia_Pacific",
+                          "NAC" = "North_America"))
+```
+
+```
+## mutate: changed 217 values (100%) of 'region_id' (0 new NA)
+```
+
+
+```r
+distinct(waste_regions, region_id)
+```
+
+```
+## # A tibble: 7 × 1
+##   region_id               
+##   &lt;chr&gt;                   
+## 1 East_Asia_Pacific       
+## 2 North_America           
+## 3 South_Asia              
+## 4 Latin_America           
+## 5 Europe_Central_Asia     
+## 6 Sub-Saharan_Africa      
+## 7 Middle_East_North_Africa
+```
+
+---
+
+Agrupar datos y resumir:
+
+
+```r
+waste_regions %&gt;%
+* group_by(region_id) %&gt;%
+* summarise(total_waste = sum(total_waste, na.rm = TRUE))
+```
+
+```
+## group_by: one grouping variable (region_id)
+```
+
+```
+## summarise: now 7 rows and 2 columns, ungrouped
+```
+
+```
+## # A tibble: 7 × 2
+##   region_id                total_waste
+##   &lt;chr&gt;                          &lt;dbl&gt;
+## 1 East_Asia_Pacific         630827137.
+## 2 Europe_Central_Asia       407170316.
+## 3 Latin_America             224893129.
+## 4 Middle_East_North_Africa  124442193.
+## 5 North_America             290409562 
+## 6 South_Asia                245640470.
+## 7 Sub-Saharan_Africa        149000010.
+```
+
+---
+
+Crear nueva variable - Ej: transformar basura a millones de toneladas
+
+
+```r
+waste_regions %&gt;%
+  group_by(region_id) %&gt;%
+  summarise(total_waste = sum(total_waste, na.rm = TRUE)) %&gt;%
+* mutate(waste_mtons = total_waste/1000000)
+```
+
+```
+## group_by: one grouping variable (region_id)
+```
+
+```
+## summarise: now 7 rows and 2 columns, ungrouped
+```
+
+```
+## mutate: new variable 'waste_mtons' (double) with 7 unique values and 0% NA
+```
+
+```
+## # A tibble: 7 × 3
+##   region_id                total_waste waste_mtons
+##   &lt;chr&gt;                          &lt;dbl&gt;       &lt;dbl&gt;
+## 1 East_Asia_Pacific         630827137.        631.
+## 2 Europe_Central_Asia       407170316.        407.
+## 3 Latin_America             224893129.        225.
+## 4 Middle_East_North_Africa  124442193.        124.
+## 5 North_America             290409562         290.
+## 6 South_Asia                245640470.        246.
+## 7 Sub-Saharan_Africa        149000010.        149.
+```
+
+---
+
+Filtrar datos:
+
+
+```r
+waste_regions %&gt;%
+  filter(region_id == "Latin_America")
+```
+
+```
+## filter: removed 175 rows (81%), 42 rows remaining
+```
+
+```
+## # A tibble: 42 × 16
+##    iso3c region_id     country      income_id    gdp population total_waste composition_foo… composition_gla…
+##    &lt;chr&gt; &lt;chr&gt;         &lt;chr&gt;        &lt;chr&gt;      &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 BRA   Latin_America Brazil       UMC       14596.  208494896   79069584              51.4             2.4 
+##  2 MEX   Latin_America Mexico       UMC       19332.  125890952   53100000              52.4             5.9 
+##  3 ARG   Latin_America Argentina    HIC       23550.   42981516   17910550              38.7             3.16
+##  4 COL   Latin_America Colombia     UMC       12523.   46406648   12150120              59.6             2.35
+##  5 VEN   Latin_America Venezuela, … UMC       14270.   29893080    9779093.             NA              NA   
+##  6 PER   Latin_America Peru         UMC       11877.   30973354    8356711.             50.4             3.05
+##  7 CHL   Latin_America Chile        HIC       20362.   16829442    6517000              53.3             6.6 
+##  8 ECU   Latin_America Ecuador      UMC       11896.   16144368    5297211.             58.7             3.01
+##  9 PRI   Latin_America Puerto Rico  HIC       34311.    3473181    4170953              13.1             2.4 
+## 10 DOM   Latin_America Dominican R… UMC       15328.   10528394    4063910              51               6   
+## # … with 32 more rows, and 7 more variables: composition_metal_percent &lt;dbl&gt;,
+## #   composition_other_percent &lt;dbl&gt;, composition_paper_cardboard_percent &lt;dbl&gt;,
+## #   composition_plastic_percent &lt;dbl&gt;, composition_rubber_leather_percent &lt;dbl&gt;,
+## #   composition_wood_percent &lt;dbl&gt;, composition_yard_garden_green_waste_percent &lt;dbl&gt;
+```
+
+---
+
+Filtrar datos:
+
+
+```r
+waste_regions %&gt;%
+  filter(region_id == "Europe_Central_Asia" &amp; population &lt;= 1000000)
+```
+
+```
+## filter: removed 205 rows (94%), 12 rows remaining
+```
+
+```
+## # A tibble: 12 × 16
+##    iso3c region_id          country income_id    gdp population total_waste composition_foo… composition_gla…
+##    &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 LUX   Europe_Central_As… Luxemb… HIC       1.14e5     619896     490338.            30                4   
+##  2 MNE   Europe_Central_As… Monten… UMC       2.08e4     622227     329780.            33.8              8.97
+##  3 ISL   Europe_Central_As… Iceland HIC       5.53e4     343400     225270.            10               NA   
+##  4 CHI   Europe_Central_As… Channe… HIC       4.67e4     164541     178933             NA               NA   
+##  5 FRO   Europe_Central_As… Faeroe… HIC       4.44e4      48842      61000             NA               NA   
+##  6 IMN   Europe_Central_As… Isle o… HIC       4.42e4      80759      50551             NA               NA   
+##  7 GRL   Europe_Central_As… Greenl… HIC       4.39e4      56905      50000             42.8              7.1 
+##  8 MCO   Europe_Central_As… Monaco  HIC       4.37e4      37783      46000             NA                3   
+##  9 AND   Europe_Central_As… Andorra HIC       4.37e4      82431      43000             31.2              8.2 
+## 10 LIE   Europe_Central_As… Liecht… HIC       4.57e4      36545      32382             37.6              5   
+## 11 SMR   Europe_Central_As… San Ma… HIC       5.88e4      33203      17175.             5.35             5.61
+## 12 GIB   Europe_Central_As… Gibral… HIC       4.37e4      33623      16954             24.6              4.42
+## # … with 7 more variables: composition_metal_percent &lt;dbl&gt;, composition_other_percent &lt;dbl&gt;,
+## #   composition_paper_cardboard_percent &lt;dbl&gt;, composition_plastic_percent &lt;dbl&gt;,
+## #   composition_rubber_leather_percent &lt;dbl&gt;, composition_wood_percent &lt;dbl&gt;,
+## #   composition_yard_garden_green_waste_percent &lt;dbl&gt;
+```
+
+---
+
+Crear nuevo factor:
+
+
+```r
+waste_regions %&gt;%
+  mutate(pop_size = case_when(
+    population &gt;= 1000000 ~ "big",
+    population &lt; 1000000 &amp; population &gt; 500000 ~ "medium",
+    population &lt;= 500000 ~ "small")) %&gt;%
+  relocate(pop_size, .before = population)
+```
+
+```
+## mutate: new variable 'pop_size' (character) with 3 unique values and 0% NA
+```
+
+```
+## relocate: columns reordered (iso3c, region_id, country, income_id, gdp, …)
+```
+
+```
+## # A tibble: 217 × 17
+##    iso3c region_id country income_id    gdp pop_size population total_waste composition_foo… composition_gla…
+##    &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;chr&gt;         &lt;dbl&gt;       &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 CHN   East_Asi… China   UMC       16092. big      1400050048   395081376             61.2              2.1
+##  2 USA   North_Am… United… HIC       61498. big       326687488   265224528             14.9              4.4
+##  3 IND   South_As… India   LMC        6497. big      1352617344   189750000             NA               NA  
+##  4 BRA   Latin_Am… Brazil  UMC       14596. big       208494896    79069584             51.4              2.4
+##  5 IDN   East_Asi… Indone… LMC       10531. big       261115456    65200000             53.8              2.5
+##  6 RUS   Europe_C… Russia… UMC       26013. big       143201680    60000000             28.4             16.8
+##  7 MEX   Latin_Am… Mexico  UMC       19332. big       125890952    53100000             52.4              5.9
+##  8 DEU   Europe_C… Germany HIC       53785. big        83132800    50627876             30               10  
+##  9 JPN   East_Asi… Japan   HIC       41310. big       126529104    42720000             36                5  
+## 10 FRA   Europe_C… France  HIC       46110. big        67059888    36748820             32               10  
+## # … with 207 more rows, and 7 more variables: composition_metal_percent &lt;dbl&gt;,
+## #   composition_other_percent &lt;dbl&gt;, composition_paper_cardboard_percent &lt;dbl&gt;,
+## #   composition_plastic_percent &lt;dbl&gt;, composition_rubber_leather_percent &lt;dbl&gt;,
+## #   composition_wood_percent &lt;dbl&gt;, composition_yard_garden_green_waste_percent &lt;dbl&gt;
+```
+
+---
+
+## Funciones de `dplyr`
+
+- `arrange()` - Ordenar variable por casos
+- `rename()` - Renombrar variables
+- `relocate()` - Reordenar variables
+- `select()` - Extraer variables 
+- `distinct()` - Extraer valores únicos
+- `recode()` - Recodificar casos de una variable
+- `group_by()` - Agrupar datos por casos
+- `summarise()` - Resumir datos por casos
+- `mutate()` - Crear nuevas variables
+- `filter()` - Filtrar datos por casos
+- `case_when()` - Filtrar datos por casos
+
+---
+class: center
+
+## Combinar bases de datos con `join`:
+
+&amp;nbsp;
+
+&lt;img src = "https://mikoontz.github.io/data-carpentry-week/img/dplyr-joins.png" width="50%"&gt;
+
+.footnote[
+[Data Wrangling CheatSheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+]
+
+---
+
+### Combinar bases de datos con `join`:
+
+&amp;nbsp;
+
+Vamos a darle a nuestro dataset información sobre el continente donde se encuentra cada pais y su localización.
+
+&amp;nbsp;
+
+Leer nuevo dataset con información sobre el continente:
+
+
+```r
+world_data &lt;- read_csv2(here("data/world_data.csv"))
+```
+
+```
+## ℹ Using "','" as decimal and "'.'" as grouping mark. Use `read_delim()` for more control.
+```
+
+```
+## Rows: 241 Columns: 16
+## ── Column specification ─────────────────────────────────────────────────────────────────────────────────────
+## Delimiter: ";"
+## chr (12): name, name_long, sovereignt, type, abbrev, continent, formal_en, gdp_md_est, economy, income_gr...
+## dbl  (4): pop_est, pop_year, lastcensus, gdp_year
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+```
+
+---
+
+
+```r
+glimpse(world_data)
+```
+
+```
+## Rows: 241
+## Columns: 16
+## $ name       &lt;chr&gt; "Aruba", "Afghanistan", "Angola", "Anguilla", "Albania", "Aland", "Andorra", "United Ara…
+## $ name_long  &lt;chr&gt; "Aruba", "Afghanistan", "Angola", "Anguilla", "Albania", "Aland Islands", "Andorra", "Un…
+## $ sovereignt &lt;chr&gt; "Netherlands", "Afghanistan", "Angola", "United Kingdom", "Albania", "Finland", "Andorra…
+## $ type       &lt;chr&gt; "Country", "Sovereign country", "Sovereign country", "Dependency", "Sovereign country", …
+## $ abbrev     &lt;chr&gt; "Aruba", "Afg.", "Ang.", "Ang.", "Alb.", "Aland", "And.", "U.A.E.", "Arg.", "Arm.", "Am.…
+## $ continent  &lt;chr&gt; "North America", "Asia", "Africa", "North America", "Europe", "Europe", "Europe", "Asia"…
+## $ formal_en  &lt;chr&gt; "Aruba", "Islamic State of Afghanistan", "People's Republic of Angola", NA, "Republic of…
+## $ pop_est    &lt;dbl&gt; 103065, 28400000, 12799293, 14436, 3639453, 27153, 83888, 4798491, 40913584, 2967004, 65…
+## $ gdp_md_est &lt;chr&gt; "2258", "22270", "110300", "108.9", "21810", "1563", "3660", "184300", "573900", "18770"…
+## $ pop_year   &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
+## $ lastcensus &lt;dbl&gt; 2010, 1979, 1970, NA, 2001, NA, 1989, 2010, 2010, 2001, 2010, NA, NA, NA, 2011, 2006, 20…
+## $ gdp_year   &lt;dbl&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, …
+## $ economy    &lt;chr&gt; "6. Developing region", "7. Least developed region", "7. Least developed region", "6. De…
+## $ income_grp &lt;chr&gt; "2. High income: nonOECD", "5. Low income", "3. Upper middle income", "3. Upper middle i…
+## $ iso_a3     &lt;chr&gt; "ABW", "AFG", "AGO", "AIA", "ALB", "ALA", "AND", "ARE", "ARG", "ARM", "ASM", "ATA", NA, …
+## $ region_un  &lt;chr&gt; "Americas", "Asia", "Africa", "Americas", "Europe", "Europe", "Europe", "Asia", "America…
+```
+
+---
+
+Seleccionar variables de interés:
+
+
+```r
+continent &lt;- world_data %&gt;%
+  select(iso_a3, 
+         country_name = name_long, 
+         continent)
+```
+
+```
+## select: renamed one variable (country_name) and dropped 13 variables
+```
+
+```r
+glimpse(continent)
+```
+
+```
+## Rows: 241
+## Columns: 3
+## $ iso_a3       &lt;chr&gt; "ABW", "AFG", "AGO", "AIA", "ALB", "ALA", "AND", "ARE", "ARG", "ARM", "ASM", "ATA", NA…
+## $ country_name &lt;chr&gt; "Aruba", "Afghanistan", "Angola", "Anguilla", "Albania", "Aland Islands", "Andorra", "…
+## $ continent    &lt;chr&gt; "North America", "Asia", "Africa", "North America", "Europe", "Europe", "Europe", "Asi…
+```
+
+---
+
+### Combinar datasets:
+
+Usando `full_join()`
+
+
+```r
+waste_world &lt;- waste_regions %&gt;% 
+* rename(iso_a3 = iso3c) %&gt;%
+  full_join(continent, by = "iso_a3")
+```
+
+```
+## rename: renamed one variable (iso_a3)
+```
+
+```
+## full_join: added 2 columns (country_name, continent)
+```
+
+```
+##            &gt; rows only in x     5
+```
+
+```
+##            &gt; rows only in y    29
+```
+
+```
+##            &gt; matched rows     212
+```
+
+```
+##            &gt;                 =====
+```
+
+```
+##            &gt; rows total       246
+```
+
+---
+
+### Combinar datasets:
+
+Usando `left_join()`
+
+
+```r
+waste_world &lt;- waste_regions %&gt;% 
+  rename(iso_a3 = iso3c) %&gt;%
+  left_join(continent, by = "iso_a3")
+```
+
+```
+## rename: renamed one variable (iso_a3)
+```
+
+```
+## left_join: added 2 columns (country_name, continent)
+```
+
+```
+##            &gt; rows only in x     5
+```
+
+```
+##            &gt; rows only in y  ( 29)
+```
+
+```
+##            &gt; matched rows     212
+```
+
+```
+##            &gt;                 =====
+```
+
+```
+##            &gt; rows total       217
+```
+
+---
+
+¿Qué paises se han quedado sin identificar?
+
+
+```r
+waste_world %&gt;%
+  filter(is.na(continent)) %&gt;%
+* pull(country, iso_a3)
+```
+
+```
+## filter: removed 212 rows (98%), 5 rows remaining
+```
+
+```
+##               TWN               XKX               CHI               GIB               TUV 
+##                NA          "Kosovo" "Channel Islands"       "Gibraltar"          "Tuvalu"
+```
+
+---
+
+Buscar los paises que faltan en el dataset de continente:
+
+
+```r
+continent %&gt;% 
+  filter(country_name %in% 
+           c("Channel Islands", "Gibraltar", "Tuvalu", "Kosovo", "Taiwan"))
+```
+
+```
+## filter: removed 239 rows (99%), 2 rows remaining
+```
+
+```
+## # A tibble: 2 × 3
+##   iso_a3 country_name continent
+##   &lt;chr&gt;  &lt;chr&gt;        &lt;chr&gt;    
+## 1 &lt;NA&gt;   Kosovo       &lt;NA&gt;     
+## 2 &lt;NA&gt;   Taiwan       &lt;NA&gt;
+```
+
+---
+
+class: center
+
+# library(stringr)
+
+&lt;img src="https://pbs.twimg.com/media/FRSlZ9EWUAcmDHI?format=jpg&amp;name=4096x4096", width="80%"&gt;
+
+.footnote[
+[Allison Horst Illustration](https://github.com/allisonhorst/stats-illustrations)
+]
+
+---
+
+### Utilidades de `library(stringr)`
+
+- `str_length()` - Longitud de una cadena
+
+- `str_detect()` - Detecta un determinado patrón
+
+- `str_extract()` - Extrae un determinado patrón
+
+- `str_c()` - Encadena caracteres (similar a `paste0()`)
+
+- `str_sub()` - Extrae sub-caracteres de una cadena
+
+- `str_replace()` - Reemplaza caracter(es) por otro(s)
+
+- `str_to_lower()`, `str_to_upper()`, `str_to_title()` - transformar en mayúsculas o minúsculas
+
+---
+
+### Usando `library(stringr)`
+
+&amp;nbsp;
+
+Alternativa para buscar los paises que faltan en el dataset de continente:
+
+
+```r
+continent %&gt;% 
+  filter(str_detect(country_name, "Kosovo|Gibraltar|Tuvalu|Channel Islands|Taiwan"))
+```
+
+```
+## filter: removed 239 rows (99%), 2 rows remaining
+```
+
+```
+## # A tibble: 2 × 3
+##   iso_a3 country_name continent
+##   &lt;chr&gt;  &lt;chr&gt;        &lt;chr&gt;    
+## 1 &lt;NA&gt;   Kosovo       &lt;NA&gt;     
+## 2 &lt;NA&gt;   Taiwan       &lt;NA&gt;
+```
+
+---
+
+&amp;nbsp;
+
+Otro ejemplo - buscar Islas:
+
+
+```r
+continent %&gt;% 
+  filter(str_detect(country_name, "Island"))
+```
+
+```
+## filter: removed 224 rows (93%), 17 rows remaining
+```
+
+```
+## # A tibble: 17 × 3
+##    iso_a3 country_name                             continent              
+##    &lt;chr&gt;  &lt;chr&gt;                                    &lt;chr&gt;                  
+##  1 ALA    Aland Islands                            Europe                 
+##  2 &lt;NA&gt;   Ashmore and Cartier Islands              Oceania                
+##  3 COK    Cook Islands                             Oceania                
+##  4 CYM    Cayman Islands                           North America          
+##  5 &lt;NA&gt;   Falkland Islands                         &lt;NA&gt;                   
+##  6 FRO    Faeroe Islands                           Europe                 
+##  7 HMD    Heard I. and McDonald Islands            Seven seas (open ocean)
+##  8 MHL    Marshall Islands                         Oceania                
+##  9 MNP    Northern Mariana Islands                 Oceania                
+## 10 NFK    Norfolk Island                           Oceania                
+## 11 PCN    Pitcairn Islands                         Oceania                
+## 12 SGS    South Georgia and South Sandwich Islands Seven seas (open ocean)
+## 13 SLB    Solomon Islands                          Oceania                
+## 14 TCA    Turks and Caicos Islands                 North America          
+## 15 VGB    British Virgin Islands                   North America          
+## 16 VIR    United States Virgin Islands             North America          
+## 17 WLF    Wallis and Futuna Islands                Oceania
+```
+
+---
+
+Corregir un dato:
+
+
+```r
+continent_corrected &lt;- continent %&gt;%
+* mutate(iso_a3 = ifelse(country_name == "Kosovo", "XKX", iso_a3)) %&gt;%
+* mutate(iso_a3 = ifelse(country_name == "Taiwan", "TWN", iso_a3))
+```
+
+```
+## mutate: changed one value (&lt;1%) of 'iso_a3' (1 fewer NA)
+## mutate: changed one value (&lt;1%) of 'iso_a3' (1 fewer NA)
+```
+
+Volver a combinar dataset:
+
+
+```r
+waste_world &lt;- waste_regions %&gt;% 
+  rename(iso_a3 = iso3c) %&gt;%
+  left_join(continent_corrected, by = "iso_a3")
+```
+
+```
+## rename: renamed one variable (iso_a3)
+```
+
+```
+## left_join: added 2 columns (country_name, continent)
+```
+
+```
+##            &gt; rows only in x     3
+```
+
+```
+##            &gt; rows only in y  ( 27)
+```
+
+```
+##            &gt; matched rows     214
+```
+
+```
+##            &gt;                 =====
+```
+
+```
+##            &gt; rows total       217
+```
+
+---
+
+
+```r
+glimpse(waste_world)
+```
+
+```
+## Rows: 217
+## Columns: 18
+## $ iso_a3                                      &lt;chr&gt; "CHN", "USA", "IND", "BRA", "IDN", "RUS", "MEX", "DEU",…
+## $ region_id                                   &lt;chr&gt; "East_Asia_Pacific", "North_America", "South_Asia", "La…
+## $ country                                     &lt;chr&gt; "China", "United States", "India", "Brazil", "Indonesia…
+## $ income_id                                   &lt;chr&gt; "UMC", "HIC", "LMC", "UMC", "LMC", "UMC", "UMC", "HIC",…
+## $ gdp                                         &lt;dbl&gt; 16092.301, 61498.371, 6496.808, 14596.246, 10531.198, 2…
+## $ population                                  &lt;dbl&gt; 1400050048, 326687488, 1352617344, 208494896, 261115456…
+## $ total_waste                                 &lt;dbl&gt; 395081376, 265224528, 189750000, 79069584, 65200000, 60…
+## $ composition_food_organic_waste_percent      &lt;dbl&gt; 61.20000, 14.90000, NA, 51.40000, 53.80000, 28.41000, 5…
+## $ composition_glass_percent                   &lt;dbl&gt; 2.100000, 4.400000, NA, 2.400000, 2.500000, 16.820000, …
+## $ composition_metal_percent                   &lt;dbl&gt; 1.10000, 9.00000, NA, 2.90000, 1.80000, 1.83000, 3.4000…
+## $ composition_other_percent                   &lt;dbl&gt; 13.10000, 3.20000, NA, 16.70000, 12.90000, 19.03000, 12…
+## $ composition_paper_cardboard_percent         &lt;dbl&gt; 9.600000, 26.600000, NA, 13.100000, 14.900000, 19.70000…
+## $ composition_plastic_percent                 &lt;dbl&gt; 9.800000, 12.900000, NA, 13.500000, 14.000000, 14.21000…
+## $ composition_rubber_leather_percent          &lt;dbl&gt; 1.30, 9.50, NA, NA, NA, NA, NA, 4.00, 1.00, NA, NA, NA,…
+## $ composition_wood_percent                    &lt;dbl&gt; 1.80, 6.20, NA, NA, NA, NA, NA, NA, 4.00, NA, NA, 7.60,…
+## $ composition_yard_garden_green_waste_percent &lt;dbl&gt; NA, 13.30, NA, NA, NA, NA, NA, NA, NA, NA, NA, 2.70, 14…
+## $ country_name                                &lt;chr&gt; "China", "United States", "India", "Brazil", "Indonesia…
+## $ continent                                   &lt;chr&gt; "Asia", "North America", "Asia", "South America", "Asia…
+```
+
+---
+
+&amp;nbsp;
+
+Guardar dataset para el próximo día:
+
+
+```r
+write_csv(waste_world, here("data/waste_world.csv"))
+```
+
+---
+class: center
+
+# library(tidyr)
+
+&lt;img src = "https://raw.githubusercontent.com/allisonhorst/stats-illustrations/main/rstats-artwork/tidyr_spread_gather.png", width="45%"&gt;
+
+.footnote[
+[Allison Horst Illustration](https://github.com/allisonhorst/stats-illustrations)
+]
+
+---
+
+### Reestructurar dataset con `library(tidyr)`
+
+- `pivot_wider()` o `spread()`
+- `pivot_longer()` o `gather()`
+
+&lt;img src = "https://fromthebottomoftheheap.net/assets/img/posts/original-dfs-tidy.png" width="50%"&gt; 
+
+.footnote[[Fuente: Garrick Aden-Buie’s - Tidyexplained Verbs](https://github.com/gadenbuie/tidyexplain#tidy-data)]
+
+
+---
+
+### Reestructurar el dataset con `library(tidyr)`
+
+
+```r
+glimpse(waste_world)
+```
+
+```
+## Rows: 217
+## Columns: 18
+## $ iso_a3                                      &lt;chr&gt; "CHN", "USA", "IND", "BRA", "IDN", "RUS", "MEX", "DEU",…
+## $ region_id                                   &lt;chr&gt; "East_Asia_Pacific", "North_America", "South_Asia", "La…
+## $ country                                     &lt;chr&gt; "China", "United States", "India", "Brazil", "Indonesia…
+## $ income_id                                   &lt;chr&gt; "UMC", "HIC", "LMC", "UMC", "LMC", "UMC", "UMC", "HIC",…
+## $ gdp                                         &lt;dbl&gt; 16092.301, 61498.371, 6496.808, 14596.246, 10531.198, 2…
+## $ population                                  &lt;dbl&gt; 1400050048, 326687488, 1352617344, 208494896, 261115456…
+## $ total_waste                                 &lt;dbl&gt; 395081376, 265224528, 189750000, 79069584, 65200000, 60…
+## $ composition_food_organic_waste_percent      &lt;dbl&gt; 61.20000, 14.90000, NA, 51.40000, 53.80000, 28.41000, 5…
+## $ composition_glass_percent                   &lt;dbl&gt; 2.100000, 4.400000, NA, 2.400000, 2.500000, 16.820000, …
+## $ composition_metal_percent                   &lt;dbl&gt; 1.10000, 9.00000, NA, 2.90000, 1.80000, 1.83000, 3.4000…
+## $ composition_other_percent                   &lt;dbl&gt; 13.10000, 3.20000, NA, 16.70000, 12.90000, 19.03000, 12…
+## $ composition_paper_cardboard_percent         &lt;dbl&gt; 9.600000, 26.600000, NA, 13.100000, 14.900000, 19.70000…
+## $ composition_plastic_percent                 &lt;dbl&gt; 9.800000, 12.900000, NA, 13.500000, 14.000000, 14.21000…
+## $ composition_rubber_leather_percent          &lt;dbl&gt; 1.30, 9.50, NA, NA, NA, NA, NA, 4.00, 1.00, NA, NA, NA,…
+## $ composition_wood_percent                    &lt;dbl&gt; 1.80, 6.20, NA, NA, NA, NA, NA, NA, 4.00, NA, NA, 7.60,…
+## $ composition_yard_garden_green_waste_percent &lt;dbl&gt; NA, 13.30, NA, NA, NA, NA, NA, NA, NA, NA, NA, 2.70, 14…
+## $ country_name                                &lt;chr&gt; "China", "United States", "India", "Brazil", "Indonesia…
+## $ continent                                   &lt;chr&gt; "Asia", "North America", "Asia", "South America", "Asia…
+```
+
+---
+
+### Reestructurar el dataset con `library(tidyr)`
+
+
+```r
+composition &lt;- waste_world %&gt;%
+  pivot_longer(cols = starts_with("composition"), names_to = "composition", values_to = "percent")
+```
+
+```
+## pivot_longer: reorganized (composition_food_organic_waste_percent, composition_glass_percent, composition_metal_percent, composition_other_percent, composition_paper_cardboard_percent, …) into (composition, percent) [was 217x18, now 1953x11]
+```
+
+---
+
+
+```r
+composition %&gt;%
+  select(country, composition, percent)
+```
+
+```
+## select: dropped 8 variables (iso_a3, region_id, income_id, gdp, population, …)
+```
+
+```
+## # A tibble: 1,953 × 3
+##    country       composition                                 percent
+##    &lt;chr&gt;         &lt;chr&gt;                                         &lt;dbl&gt;
+##  1 China         composition_food_organic_waste_percent         61.2
+##  2 China         composition_glass_percent                       2.1
+##  3 China         composition_metal_percent                       1.1
+##  4 China         composition_other_percent                      13.1
+##  5 China         composition_paper_cardboard_percent             9.6
+##  6 China         composition_plastic_percent                     9.8
+##  7 China         composition_rubber_leather_percent              1.3
+##  8 China         composition_wood_percent                        1.8
+##  9 China         composition_yard_garden_green_waste_percent    NA  
+## 10 United States composition_food_organic_waste_percent         14.9
+## # … with 1,943 more rows
+```
+
+---
+
+Simplificar variables con `library(stringr)`:
+
+
+```r
+composition_fix &lt;- composition %&gt;%
+* mutate(composition=str_remove(composition, "composition_")) %&gt;%
+* mutate(composition=str_remove(composition, "_percent"))
+```
+
+```
+## mutate: changed 1,953 values (100%) of 'composition' (0 new NA)
+## mutate: changed 1,953 values (100%) of 'composition' (0 new NA)
+```
+
+```r
+distinct(composition_fix, composition)
+```
+
+```
+## distinct: removed 1,944 rows (&gt;99%), 9 rows remaining
+```
+
+```
+## # A tibble: 9 × 1
+##   composition            
+##   &lt;chr&gt;                  
+## 1 food_organic_waste     
+## 2 glass                  
+## 3 metal                  
+## 4 other                  
+## 5 paper_cardboard        
+## 6 plastic                
+## 7 rubber_leather         
+## 8 wood                   
+## 9 yard_garden_green_waste
+```
+
+---
+
+
+```r
+glimpse(composition_fix)
+```
+
+```
+## Rows: 1,953
+## Columns: 11
+## $ iso_a3       &lt;chr&gt; "CHN", "CHN", "CHN", "CHN", "CHN", "CHN", "CHN", "CHN", "CHN", "USA", "USA", "USA", "U…
+## $ region_id    &lt;chr&gt; "East_Asia_Pacific", "East_Asia_Pacific", "East_Asia_Pacific", "East_Asia_Pacific", "E…
+## $ country      &lt;chr&gt; "China", "China", "China", "China", "China", "China", "China", "China", "China", "Unit…
+## $ income_id    &lt;chr&gt; "UMC", "UMC", "UMC", "UMC", "UMC", "UMC", "UMC", "UMC", "UMC", "HIC", "HIC", "HIC", "H…
+## $ gdp          &lt;dbl&gt; 16092.301, 16092.301, 16092.301, 16092.301, 16092.301, 16092.301, 16092.301, 16092.301…
+## $ population   &lt;dbl&gt; 1400050048, 1400050048, 1400050048, 1400050048, 1400050048, 1400050048, 1400050048, 14…
+## $ total_waste  &lt;dbl&gt; 395081376, 395081376, 395081376, 395081376, 395081376, 395081376, 395081376, 395081376…
+## $ country_name &lt;chr&gt; "China", "China", "China", "China", "China", "China", "China", "China", "China", "Unit…
+## $ continent    &lt;chr&gt; "Asia", "Asia", "Asia", "Asia", "Asia", "Asia", "Asia", "Asia", "Asia", "North America…
+## $ composition  &lt;chr&gt; "food_organic_waste", "glass", "metal", "other", "paper_cardboard", "plastic", "rubber…
+## $ percent      &lt;dbl&gt; 61.2, 2.1, 1.1, 13.1, 9.6, 9.8, 1.3, 1.8, NA, 14.9, 4.4, 9.0, 3.2, 26.6, 12.9, 9.5, 6.…
+```
+
+---
+
+**Comprobar datos:** asegurar que los porcentajes suman 100%
+
+
+```r
+composition %&gt;%
+  group_by(country) %&gt;%
+* summarise(per_sum = sum(percent, na.rm = TRUE))
+```
+
+```
+## group_by: one grouping variable (country)
+```
+
+```
+## summarise: now 217 rows and 2 columns, ungrouped
+```
+
+```
+## # A tibble: 217 × 2
+##    country             per_sum
+##    &lt;chr&gt;                 &lt;dbl&gt;
+##  1 Afghanistan             0  
+##  2 Albania               100. 
+##  3 Algeria               100  
+##  4 American Samoa        100  
+##  5 Andorra               100  
+##  6 Angola                 99.8
+##  7 Antigua and Barbuda   100  
+##  8 Argentina             100. 
+##  9 Armenia               100  
+## 10 Aruba                   0  
+## # … with 207 more rows
+```
+
+---
+
+**Comprobar datos:** Lista de paises cuyos porcentajes no suman 100%
+
+
+```r
+composition %&gt;%
+  group_by(country) %&gt;%
+  summarise(per_sum = sum(percent, na.rm = TRUE)) %&gt;% 
+  filter(per_sum &lt; 99.9 | per_sum &gt; 100.1)  %&gt;% # arrange(per_sum) %&gt;%
+* pull(per_sum, country)
+```
+
+```
+##              Afghanistan                   Angola                    Aruba                 Barbados 
+##                     0.00                    99.80                     0.00                   100.10 
+##                  Belgium                 Botswana               Cabo Verde                   Canada 
+##                    99.86                   100.10                     0.00                   101.00 
+## Central African Republic          Channel Islands         Congo, Dem. Rep.              Congo, Rep. 
+##                     0.00                     0.00                     0.00                     0.00 
+##            Côte d’Ivoire                  Curacao                 Djibouti        Equatorial Guinea 
+##                     0.00                     0.00                     0.00                     0.00 
+##                  Eritrea                 Eswatini           Faeroe Islands                    Gabon 
+##                     0.00                     0.00                     0.00                     0.00 
+##                Gibraltar            Guinea-Bissau                    India                Indonesia 
+##                    97.25                     0.00                     0.00                    99.90 
+##       Iran, Islamic Rep.                     Iraq              Isle of Man               Kazakhstan 
+##                   100.30                    99.74                     0.00                    97.50 
+##              Korea, Rep.                   Kuwait          Kyrgyz Republic                  Lao PDR 
+##                   100.40                   101.00                     0.00                    99.60 
+##                   Latvia                  Lesotho                  Liberia                    Libya 
+##                   100.20                     0.00                     0.00                    96.80 
+##                Lithuania         Macao SAR, China               Madagascar                   Malawi 
+##                   116.65                   100.10                     0.00                     0.00 
+##                    Malta                Mauritius                   Mexico                   Monaco 
+##                   101.50                   100.20                    98.50                     8.40 
+##                  Morocco                  Myanmar                  Namibia              New Zealand 
+##                    87.50                     0.00                     0.00                   100.50 
+##                Nicaragua                  Nigeria         Papua New Guinea                 Paraguay 
+##                     0.00                    27.20                    99.60                     0.00 
+##                   Rwanda    São Tomé and Príncipe               Seychelles             Sierra Leone 
+##                     0.00                     0.00                   100.60                     0.00 
+##                 Slovenia                  Somalia              South Sudan St. Martin (French part) 
+##                     0.00                     0.00                     0.00                     0.00 
+##                 Suriname               Tajikistan                 Tanzania                 Thailand 
+##                    98.00                     0.00                     0.00                   101.60 
+##               Uzbekistan            Venezuela, RB                  Vietnam                   Zambia 
+##                    88.00                     0.00                   101.53                     0.00
+```
+
+---
+
+Crear dataset solo para los paises con información completa:
+
+
+```r
+composition_complete &lt;- composition %&gt;%
+  group_by(country) %&gt;%
+* mutate(per_sum = sum(percent, na.rm = TRUE)) %&gt;%
+  filter(per_sum &gt;= 99.9) %&gt;%
+  filter(per_sum &lt;= 100.1)
+```
+
+```
+## group_by: one grouping variable (country)
+```
+
+```
+## mutate (grouped): new variable 'per_sum' (double) with 42 unique values and 0% NA
+```
+
+```
+## filter (grouped): removed 477 rows (24%), 1,476 rows remaining
+```
+
+```
+## filter (grouped): removed 135 rows (9%), 1,341 rows remaining
+```
+
+Atención, en este caso para filtrar el dataset usamos `mutate()` y no `summarise()`, ya que queremos toda la información desagregada.
+
+---
+
+
+```r
+glimpse(composition_complete)
+```
+
+```
+## Rows: 1,341
+## Columns: 12
+## Groups: country [149]
+## $ iso_a3       &lt;chr&gt; "CHN", "CHN", "CHN", "CHN", "CHN", "CHN", "CHN", "CHN", "CHN", "USA", "USA", "USA", "U…
+## $ region_id    &lt;chr&gt; "East_Asia_Pacific", "East_Asia_Pacific", "East_Asia_Pacific", "East_Asia_Pacific", "E…
+## $ country      &lt;chr&gt; "China", "China", "China", "China", "China", "China", "China", "China", "China", "Unit…
+## $ income_id    &lt;chr&gt; "UMC", "UMC", "UMC", "UMC", "UMC", "UMC", "UMC", "UMC", "UMC", "HIC", "HIC", "HIC", "H…
+## $ gdp          &lt;dbl&gt; 16092.30, 16092.30, 16092.30, 16092.30, 16092.30, 16092.30, 16092.30, 16092.30, 16092.…
+## $ population   &lt;dbl&gt; 1400050048, 1400050048, 1400050048, 1400050048, 1400050048, 1400050048, 1400050048, 14…
+## $ total_waste  &lt;dbl&gt; 395081376, 395081376, 395081376, 395081376, 395081376, 395081376, 395081376, 395081376…
+## $ country_name &lt;chr&gt; "China", "China", "China", "China", "China", "China", "China", "China", "China", "Unit…
+## $ continent    &lt;chr&gt; "Asia", "Asia", "Asia", "Asia", "Asia", "Asia", "Asia", "Asia", "Asia", "North America…
+## $ composition  &lt;chr&gt; "composition_food_organic_waste_percent", "composition_glass_percent", "composition_me…
+## $ percent      &lt;dbl&gt; 61.20, 2.10, 1.10, 13.10, 9.60, 9.80, 1.30, 1.80, NA, 14.90, 4.40, 9.00, 3.20, 26.60, …
+## $ per_sum      &lt;dbl&gt; 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1…
+```
+
+---
+
+# Recursos
+
+- [Tidyverse packages](https://www.tidyverse.org/packages/)
+
+- [R for Data Science Book - Wrangle Chapter](https://r4ds.had.co.nz/wrangle-intro.html)
+
+- [RStudio CheatSheets](https://www.rstudio.com/resources/cheatsheets/)
+
+  - Data import with readr, readxl, and googlesheets4 
+  - Data Transformation with dplyr
+  - Data tidying with tidyr
+  - String manipulation with stringr
+  - Factors with forcats 
+  - Dates and times with lubridate
+
+&amp;nbsp;
+
+&lt;img src="https://readr.tidyverse.org/logo.png", width=10%&gt;
+&lt;img src="https://readxl.tidyverse.org/logo.png", width=10%&gt;
+&lt;img src="https://dplyr.tidyverse.org/logo.png", width=10%&gt;
+&lt;img src="https://tidyr.tidyverse.org/logo.png", width=10%&gt;
+&lt;img src="https://stringr.tidyverse.org/logo.png", width=10%&gt;
+&lt;img src="https://forcats.tidyverse.org/logo.png", width=10%&gt;
+&lt;img src="https://lubridate.tidyverse.org/logo.png", width=10%&gt;
+
+---
+
+## Ejercicio 1:
+
+Calcular composición de basura en España:
+
+---
+
+## Ejercicio 1:
+
+Calcular composición de basura en España:
+
+
+```r
+composition_complete %&gt;%
+  filter(country == "Spain") %&gt;%
+  select(composition, percent)
+```
+
+```
+## # A tibble: 9 × 3
+## # Groups:   country [1]
+##   country composition                                 percent
+##   &lt;chr&gt;   &lt;chr&gt;                                         &lt;dbl&gt;
+## 1 Spain   composition_food_organic_waste_percent           49
+## 2 Spain   composition_glass_percent                         8
+## 3 Spain   composition_metal_percent                         3
+## 4 Spain   composition_other_percent                        14
+## 5 Spain   composition_paper_cardboard_percent              15
+## 6 Spain   composition_plastic_percent                       9
+## 7 Spain   composition_rubber_leather_percent               NA
+## 8 Spain   composition_wood_percent                          2
+## 9 Spain   composition_yard_garden_green_waste_percent      NA
+```
+
+---
+
+## Ejercicio 2:
+
+Usando el dataset &lt;font color="red"&gt;waste_world&lt;/font&gt; - calcular la población media por regiones en millones de habitantes.
+
+---
+
+## Ejercicio 2:
+
+Usando el dataset &lt;font color="red"&gt;waste_world&lt;/font&gt; - calcular la población media por regiones en millones de habitantes.
+
+
+```r
+waste_world %&gt;%
+  group_by(region_id) %&gt;%
+  summarise(pop = mean(population, na.rm = TRUE)) %&gt;%
+  mutate(pop = pop / 1000000)
+```
+
+```
+## # A tibble: 7 × 2
+##   region_id                  pop
+##   &lt;chr&gt;                    &lt;dbl&gt;
+## 1 East_Asia_Pacific         61.6
+## 2 Europe_Central_Asia       15.7
+## 3 Latin_America             15.0
+## 4 Middle_East_North_Africa  20.2
+## 5 North_America            121. 
+## 6 South_Asia               223. 
+## 7 Sub-Saharan_Africa        18.9
+```
+
+---
+
+## Ejercicio 3:
+
+Crear una variable basada en el nivel de basura per cápita y contar el numero de paises en cada grupo.
+
+Ejemplo:
+- high_waste = &gt;0.6 toneladas de basura por persona al año
+- medium_waste =  0.2 a 0.6 toneladas de basura por persona al año
+- low_waste = &lt;0.2 toneladas de basura por persona al año
+
+---
+
+## Ejercicio 3:
+
+Crear una variable basada en el nivel de basura per cápita y contar el número de paises en cada grupo.
+
+- high_waste = &gt;0.6 toneladas de basura por persona al año
+- medium_waste = 0.2 a 0.6 toneladas de basura por persona al año
+- low_waste = &lt;0.2 toneladas de basura por persona al año
+
+
+```r
+waste_world %&gt;%
+  select(country, population, total_waste) %&gt;%
+  mutate(waste_per_pers = total_waste / population) %&gt;%
+  mutate(waste_levels = case_when(
+              waste_per_pers &gt;= 0.6 ~ "high_waste",
+              waste_per_pers &lt;= 0.2 ~ "low_waste",
+              waste_per_pers &lt; 0.6 &amp; waste_per_pers &gt; 0.2 ~ "medium_waste")) %&gt;%
+  group_by(waste_levels) %&gt;%
+  summarise(n_countries = n())
+```
+
+```
+## # A tibble: 4 × 2
+##   waste_levels n_countries
+##   &lt;chr&gt;              &lt;int&gt;
+## 1 high_waste            34
+## 2 low_waste             65
+## 3 medium_waste         116
+## 4 &lt;NA&gt;                   2
+```
+
+
+
+---
+
+## Ejercicio 4:
+
+Usando la nueva categoria de niveles de basura, contar paises por region y crear una tabla como esta:
+
+
+|region_id                | high_waste| low_waste| medium_waste|
+|:------------------------|----------:|---------:|------------:|
+|East_Asia_Pacific        |          6|        10|           21|
+|Europe_Central_Asia      |         14|         5|           39|
+|Latin_America            |          8|         4|           28|
+|Middle_East_North_Africa |          3|         3|           15|
+|North_America            |          3|         0|            0|
+|South_Asia               |          0|         7|            1|
+|Sub-Saharan_Africa       |          0|        36|           12|
+
+---
+
+## Ejercicio 4:
+
+Usando la nueva categoria de niveles de basura, contar paises por region y crear una tabla como esta:
+
+
+```r
+waste_world %&gt;%
+  select(region_id, country, population, total_waste) %&gt;%
+  mutate(waste_per_pers = total_waste/population) %&gt;%
+  filter(!is.na(waste_per_pers)) %&gt;%
+  mutate(waste_levels = case_when(
+              waste_per_pers &gt;= 0.6 ~ "high_waste",
+              waste_per_pers &lt;= 0.2 ~ "low_waste",
+              waste_per_pers &lt; 0.6 &amp; waste_per_pers &gt; 0.2 ~ "medium_waste")) %&gt;%
+  group_by(region_id, waste_levels) %&gt;%
+  summarise(n_countries=n()) %&gt;%
+  pivot_wider(names_from=waste_levels, values_from=n_countries) %&gt;%
+  replace(is.na(.), 0) %&gt;%
+  kable()
+```
+
+---
+
+## Ejercicio 5:
+
+Usando el dataset &lt;font color="red"&gt;waste_world&lt;/font&gt; - calcular el residuo de basura plástica en millones de toneladas (composition_plastic_percent * total_waste) por continente y ordenarlo de mayor a menor.
+
+---
+
+## Ejercicio 5:
+
+Usando el dataset &lt;font color="red"&gt;waste_world&lt;/font&gt; - calcular el residuo de basura plástica en millones de toneladas (composition_plastic_percent * total_waste) por continente y ordenarlo de mayor a menor.
+
+
+```r
+waste_world %&gt;%
+  select(continent, 
+         total_waste,
+         plastic_per=composition_plastic_percent) %&gt;%
+  mutate(plastic_waste=total_waste*plastic_per) %&gt;%
+  group_by(continent) %&gt;%
+  summarise(plastic = sum(plastic_waste, na.rm=T)/1000000) %&gt;%
+  arrange(desc(plastic))
+```
+
+```
+## # A tibble: 8 × 2
+##   continent               plastic
+##   &lt;chr&gt;                     &lt;dbl&gt;
+## 1 Asia                    8417.  
+## 2 North America           4387.  
+## 3 Europe                  4258.  
+## 4 South America           1735.  
+## 5 Africa                  1266.  
+## 6 &lt;NA&gt;                     152.  
+## 7 Oceania                  152.  
+## 8 Seven seas (open ocean)    6.54
+```
+
+
+
+  
+  
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "tomorrow",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
