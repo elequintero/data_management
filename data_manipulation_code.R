@@ -7,6 +7,8 @@
 
 
 # Paquetes
+
+
 install.packages(c("tidyverse", 
                    "here",
                    "readxl",    
@@ -35,7 +37,7 @@ library(knitr)          #reportar datos en varios formatos
 waste <- read_csv(here("data/country_level_data.csv"))
 
 colnames(waste)
-dplyr::glimpse(waste)
+glimpse(waste)
 
 head(waste)
 
@@ -81,7 +83,6 @@ waste_select <- waste %>%
 
 
 glimpse(waste_select)
-
 
 ### (Des)seleccionar variables:
 
@@ -276,7 +277,9 @@ write_csv(waste_world, here("data/waste_world.csv"))
 glimpse(waste_world)
 
 composition <- waste_world %>%
-  pivot_longer(cols = starts_with("composition"), names_to = "composition", values_to = "percent")
+  pivot_longer(cols = starts_with("composition"), 
+               names_to = "composition", 
+               values_to = "percent")
 
 
 composition %>%
@@ -329,7 +332,9 @@ composition_clean %>%
 composition_complete <- composition_clean %>%
   group_by(country) %>%
   mutate(per_sum = sum(percent, na.rm = TRUE)) %>% #<<
-  filter(per_sum < 99.9 | per_sum > 100.1)
+  mutate(per_sum = as.numeric(as.character(per_sum))) %>%
+  #filter(per_sum > 99.9 & per_sum < 100.1) %>%
+  filter(per_sum == 100)
 
 ### Atención, en este caso para filtrar el dataset usamos `mutate()` y no `summarise()`, ya que queremos toda la informacion desagregada.
 

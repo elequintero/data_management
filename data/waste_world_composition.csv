@@ -1,0 +1,1954 @@
+iso_a3,continent,region_id,country,income_id,gdp,population,total_waste,composition,percent
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,food_organic_waste,54.4
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,glass,1.2
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,metal,2.8
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,other,0.8
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,paper_cardboard,9.8
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,plastic,16.9
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,rubber_leather,12.6
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,wood,1.5
+DZA,Africa,Middle_East_North_Africa,Algeria,UMC,11826.1650390625,40606052,12378740,yard_garden_green_waste,NA
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,food_organic_waste,51.8
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,glass,6.7
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,metal,4.4
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,other,11.5
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,paper_cardboard,11.9
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,plastic,13.5
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,rubber_leather,NA
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,wood,NA
+AGO,Africa,Sub-Saharan_Africa,Angola,LMC,8036.6904296875,25096150,4213643.585,yard_garden_green_waste,NA
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,food_organic_waste,52.1
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,glass,1.6
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,metal,1.6
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,other,34.3
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,paper_cardboard,3.1
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,plastic,7.3
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,rubber_leather,NA
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,wood,NA
+BEN,Africa,Sub-Saharan_Africa,Benin,LIC,2227.352294921875,5521763,685936.01,yard_garden_green_waste,NA
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,food_organic_waste,8.1
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,glass,NA
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,metal,0.1
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,other,91.9
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,paper_cardboard,NA
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,plastic,NA
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,rubber_leather,NA
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,wood,NA
+BWA,Africa,Sub-Saharan_Africa,Botswana,UMC,14126.3896484375,2014866,210854.442618916,yard_garden_green_waste,NA
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,food_organic_waste,21
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,glass,1
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,metal,1
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,other,61
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,paper_cardboard,7
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,plastic,9
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,rubber_leather,NA
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,wood,NA
+BFA,Africa,Sub-Saharan_Africa,Burkina Faso,LIC,1925.3311767578125,18110624,2575251.11,yard_garden_green_waste,NA
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,food_organic_waste,81
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,glass,2.9
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,metal,2.1
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,other,3.2
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,paper_cardboard,7.3
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,plastic,3.5
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,rubber_leather,NA
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,wood,NA
+BDI,Africa,Sub-Saharan_Africa,Burundi,LIC,839.77850341796875,6741569,1872016,yard_garden_green_waste,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,food_organic_waste,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,glass,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,metal,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,other,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,paper_cardboard,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,plastic,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,rubber_leather,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,wood,NA
+CPV,Africa,Sub-Saharan_Africa,Cabo Verde,LMC,6353.783203125,513979,132555,yard_garden_green_waste,NA
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,food_organic_waste,83.4
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,glass,0.1
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,metal,0.7
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,other,10.4
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,paper_cardboard,2.1
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,plastic,3.3
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,rubber_leather,NA
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,wood,NA
+CMR,Africa,Sub-Saharan_Africa,Cameroon,LMC,3262.763671875,21655716,3270616.59,yard_garden_green_waste,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,food_organic_waste,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,glass,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,metal,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,other,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,paper_cardboard,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,plastic,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,rubber_leather,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,wood,NA
+CAF,Africa,Sub-Saharan_Africa,Central African Republic,LIC,822.6104736328125,4515392,1105983,yard_garden_green_waste,NA
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,food_organic_waste,70
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,glass,1
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,metal,2
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,other,18
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,paper_cardboard,3
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,plastic,6
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,rubber_leather,NA
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,wood,NA
+TCD,Africa,Sub-Saharan_Africa,Chad,LIC,1732.6912841796875,11887202,1358850.53,yard_garden_green_waste,NA
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,food_organic_waste,50
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,glass,2
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,metal,4
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,other,22
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,paper_cardboard,7
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,plastic,5
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,rubber_leather,NA
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,wood,NA
+COM,Africa,Sub-Saharan_Africa,Comoros,LIC,2959.5400390625,777424,91013,yard_garden_green_waste,10
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,food_organic_waste,NA
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,glass,NA
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,metal,NA
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,other,NA
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,paper_cardboard,NA
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,plastic,NA
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,rubber_leather,NA
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,wood,NA
+COD,Africa,Sub-Saharan_Africa,"Congo, Dem. Rep.",LIC,1055.572998046875,78736152,14385226.02,yard_garden_green_waste,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,food_organic_waste,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,glass,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,metal,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,other,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,paper_cardboard,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,plastic,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,rubber_leather,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,wood,NA
+COG,Africa,Sub-Saharan_Africa,"Congo, Rep.",LMC,4899.57958984375,2648507,451200,yard_garden_green_waste,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,food_organic_waste,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,glass,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,metal,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,other,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,paper_cardboard,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,plastic,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,rubber_leather,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,wood,NA
+CIV,Africa,Sub-Saharan_Africa,Côte d’Ivoire,LMC,3660.90283203125,20401332,4440814.27,yard_garden_green_waste,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,food_organic_waste,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,glass,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,metal,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,other,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,paper_cardboard,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,plastic,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,rubber_leather,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,wood,NA
+DJI,Africa,Middle_East_North_Africa,Djibouti,LMC,6596.775390625,746221,114997.24900398408,yard_garden_green_waste,NA
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,food_organic_waste,56
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,glass,4
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,metal,2
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,other,15
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,paper_cardboard,10
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,plastic,13
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,rubber_leather,NA
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,wood,NA
+EGY,Africa,Middle_East_North_Africa,"Egypt, Arab Rep.",LMC,10301.107421875,87813256,21000000,yard_garden_green_waste,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,food_organic_waste,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,glass,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,metal,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,other,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,paper_cardboard,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,plastic,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,rubber_leather,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,wood,NA
+GNQ,Africa,Sub-Saharan_Africa,Equatorial Guinea,UMC,24827.072265625,1221490,198443.06,yard_garden_green_waste,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,food_organic_waste,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,glass,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,metal,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,other,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,paper_cardboard,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,plastic,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,rubber_leather,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,wood,NA
+ERI,Africa,Sub-Saharan_Africa,Eritrea,LIC,1714.5523681640625,4474690,726957.37,yard_garden_green_waste,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,food_organic_waste,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,glass,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,metal,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,other,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,paper_cardboard,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,plastic,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,rubber_leather,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,wood,NA
+SWZ,Africa,Sub-Saharan_Africa,Eswatini,LMC,8321.1064453125,1343098,218199.47,yard_garden_green_waste,NA
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,food_organic_waste,87.6
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,glass,0.8
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,metal,1.2
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,other,4.4
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,paper_cardboard,3.8
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,plastic,2.3
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,rubber_leather,NA
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,wood,NA
+ETH,Africa,Sub-Saharan_Africa,Ethiopia,LIC,1779.083984375,99873032,6532786.97,yard_garden_green_waste,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,food_organic_waste,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,glass,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,metal,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,other,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,paper_cardboard,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,plastic,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,rubber_leather,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,wood,NA
+GAB,Africa,Sub-Saharan_Africa,Gabon,UMC,18514.65234375,1086137,238102.31,yard_garden_green_waste,NA
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,food_organic_waste,35
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,glass,1.9
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,metal,2.1
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,other,51.4
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,paper_cardboard,9.7
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,plastic,NA
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,rubber_leather,NA
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,wood,NA
+GMB,Africa,Sub-Saharan_Africa,"Gambia, The",LIC,2180.855712890625,1311349,193440.54,yard_garden_green_waste,NA
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,food_organic_waste,67
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,glass,0
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,metal,1
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,other,25
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,paper_cardboard,3
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,plastic,4
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,rubber_leather,NA
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,wood,NA
+GHA,Africa,Sub-Saharan_Africa,Ghana,LMC,3092.596923828125,21542008,3538274.97825,yard_garden_green_waste,NA
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,food_organic_waste,58
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,glass,1
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,metal,1
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,other,27
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,paper_cardboard,9
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,plastic,4
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,rubber_leather,NA
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,wood,NA
+GIN,Africa,Sub-Saharan_Africa,Guinea,LIC,1622.77685546875,8132552,596911,yard_garden_green_waste,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,food_organic_waste,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,glass,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,metal,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,other,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,paper_cardboard,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,plastic,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,rubber_leather,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,wood,NA
+GNB,Africa,Sub-Saharan_Africa,Guinea-Bissau,LIC,1800.068603515625,1770526,289514,yard_garden_green_waste,NA
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,food_organic_waste,57
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,glass,3
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,metal,1
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,other,9
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,paper_cardboard,11.3
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,plastic,18.7
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,rubber_leather,NA
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,wood,NA
+KEN,Africa,Sub-Saharan_Africa,Kenya,LMC,3329.8544921875,41350152,5595099,yard_garden_green_waste,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,food_organic_waste,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,glass,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,metal,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,other,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,paper_cardboard,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,plastic,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,rubber_leather,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,wood,NA
+LSO,Africa,Sub-Saharan_Africa,Lesotho,LMC,1978.6083984375,1965662,73457,yard_garden_green_waste,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,food_organic_waste,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,glass,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,metal,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,other,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,paper_cardboard,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,plastic,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,rubber_leather,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,wood,NA
+LBR,Africa,Sub-Saharan_Africa,Liberia,LIC,1333.4222412109375,3512932,564466.7,yard_garden_green_waste,NA
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,food_organic_waste,70.1
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,glass,3.1
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,metal,4.3
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,other,3.8
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,paper_cardboard,5.5
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,plastic,7.5
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,rubber_leather,NA
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,wood,2.5
+LBY,Africa,Middle_East_North_Africa,Libya,UMC,8479.9462890625,6193501,2147596.47175,yard_garden_green_waste,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,food_organic_waste,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,glass,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,metal,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,other,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,paper_cardboard,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,plastic,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,rubber_leather,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,wood,NA
+MDG,Africa,Sub-Saharan_Africa,Madagascar,LIC,1565.866943359375,24894552,3768759.16,yard_garden_green_waste,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,food_organic_waste,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,glass,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,metal,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,other,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,paper_cardboard,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,plastic,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,rubber_leather,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,wood,NA
+MWI,Africa,Sub-Saharan_Africa,Malawi,LIC,999.4413452148436,16577147,1297844.48,yard_garden_green_waste,NA
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,food_organic_waste,17.5
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,glass,1
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,metal,3.5
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,other,72.5
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,paper_cardboard,3.5
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,plastic,2
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,rubber_leather,NA
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,wood,NA
+MLI,Africa,Sub-Saharan_Africa,Mali,LIC,2007.8060302734375,16006670,1937354.44,yard_garden_green_waste,NA
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,food_organic_waste,4.8
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,glass,4
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,metal,4.2
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,other,59.7
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,paper_cardboard,7.3
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,plastic,20
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,rubber_leather,NA
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,wood,NA
+MRT,Africa,Sub-Saharan_Africa,Mauritania,LMC,4783.6357421875,3506288,454000,yard_garden_green_waste,NA
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,food_organic_waste,60
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,glass,2
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,metal,2.5
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,other,6
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,paper_cardboard,9
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,plastic,8
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,rubber_leather,NA
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,wood,NA
+MAR,Africa,Middle_East_North_Africa,Morocco,LMC,6915.10302734375,34318080,6852000,yard_garden_green_waste,NA
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,food_organic_waste,60
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,glass,NA
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,metal,NA
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,other,15
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,paper_cardboard,25
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,plastic,NA
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,rubber_leather,NA
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,wood,NA
+MOZ,Africa,Sub-Saharan_Africa,Mozambique,LIC,1217.0902099609375,27212382,2500000,yard_garden_green_waste,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,food_organic_waste,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,glass,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,metal,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,other,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,paper_cardboard,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,plastic,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,rubber_leather,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,wood,NA
+NAM,Africa,Sub-Saharan_Africa,Namibia,UMC,6152.9873046875,1559983,256729,yard_garden_green_waste,NA
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,food_organic_waste,38
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,glass,NA
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,metal,1
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,other,57
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,paper_cardboard,2
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,plastic,2
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,rubber_leather,NA
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,wood,NA
+NER,Africa,Sub-Saharan_Africa,Niger,LIC,1038.22412109375,8842415,1865645.67,yard_garden_green_waste,NA
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,food_organic_waste,NA
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,glass,3.1
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,metal,NA
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,other,11.3
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,paper_cardboard,8
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,plastic,4.8
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,rubber_leather,NA
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,wood,NA
+NGA,Africa,Sub-Saharan_Africa,Nigeria,LMC,4690.37939453125,154402176,27614830.07185,yard_garden_green_waste,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,food_organic_waste,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,glass,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,metal,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,other,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,paper_cardboard,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,plastic,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,rubber_leather,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,wood,NA
+RWA,Africa,Sub-Saharan_Africa,Rwanda,LIC,1950.528076171875,11917508,4384969,yard_garden_green_waste,NA
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,food_organic_waste,12
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,glass,2
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,metal,2
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,other,68
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,paper_cardboard,5
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,plastic,9
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,rubber_leather,NA
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,wood,2
+SEN,Africa,Sub-Saharan_Africa,Senegal,LIC,3067.66259765625,15411614,2454059.25,yard_garden_green_waste,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,food_organic_waste,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,glass,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,metal,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,other,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,paper_cardboard,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,plastic,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,rubber_leather,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,wood,NA
+SLE,Africa,Sub-Saharan_Africa,Sierra Leone,LIC,1237.6302490234375,5439695,610222.09,yard_garden_green_waste,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,food_organic_waste,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,glass,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,metal,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,other,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,paper_cardboard,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,plastic,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,rubber_leather,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,wood,NA
+SOM,Africa,Sub-Saharan_Africa,Somalia,LIC,1862.6141357421875,14317996,2326099.17,yard_garden_green_waste,NA
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,food_organic_waste,16.381654627302726
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,glass,5.200216370472019
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,metal,16.9104608968452
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,other,45.020645565922344
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,paper_cardboard,9.396918237794267
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,plastic,7.090104301663434
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,rubber_leather,NA
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,wood,NA
+ZAF,Africa,Sub-Saharan_Africa,South Africa,UMC,12666.607421875,51729344,18457232,yard_garden_green_waste,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,food_organic_waste,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,glass,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,metal,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,other,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,paper_cardboard,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,plastic,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,rubber_leather,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,wood,NA
+SSD,Africa,Sub-Saharan_Africa,South Sudan,LIC,1795.991943359375,11177490,2680681,yard_garden_green_waste,NA
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,food_organic_waste,51.4
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,glass,3.5
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,metal,1.7
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,other,18.9
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,paper_cardboard,11.8
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,plastic,12.7
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,rubber_leather,NA
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,wood,NA
+SDN,Africa,Sub-Saharan_Africa,Sudan,LMC,4191.8232421875,38647804,2831291,yard_garden_green_waste,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,food_organic_waste,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,glass,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,metal,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,other,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,paper_cardboard,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,plastic,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,rubber_leather,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,wood,NA
+STP,Africa,Sub-Saharan_Africa,São Tomé and Príncipe,LMC,3720.786865234375,191266,25586.5,yard_garden_green_waste,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,food_organic_waste,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,glass,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,metal,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,other,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,paper_cardboard,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,plastic,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,rubber_leather,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,wood,NA
+TZA,Africa,Sub-Saharan_Africa,Tanzania,LIC,2128.553955078125,49082996,9276995,yard_garden_green_waste,NA
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,food_organic_waste,38
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,glass,2
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,metal,4
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,other,42
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,paper_cardboard,4
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,plastic,10
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,rubber_leather,NA
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,wood,NA
+TGO,Africa,Sub-Saharan_Africa,Togo,LIC,1404.1329345703125,7228915,1109030.45,yard_garden_green_waste,NA
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,food_organic_waste,68
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,glass,2
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,metal,4
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,other,5
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,paper_cardboard,10
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,plastic,11
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,rubber_leather,NA
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,wood,NA
+TUN,Africa,Middle_East_North_Africa,Tunisia,LMC,10505.2626953125,11143908,2700000,yard_garden_green_waste,NA
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,food_organic_waste,74.5
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,glass,0.8
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,metal,0.6
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,other,10.6
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,paper_cardboard,6
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,plastic,7.6
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,rubber_leather,NA
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,wood,NA
+UGA,Africa,Sub-Saharan_Africa,Uganda,LIC,1972.3017578125,35093648,7045049.836,yard_garden_green_waste,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,food_organic_waste,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,glass,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,metal,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,other,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,paper_cardboard,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,plastic,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,rubber_leather,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,wood,NA
+ZMB,Africa,Sub-Saharan_Africa,Zambia,LMC,3201.289306640625,14264756,2608268,yard_garden_green_waste,NA
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,food_organic_waste,36
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,glass,5
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,metal,6
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,other,3
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,paper_cardboard,27
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,plastic,23
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,rubber_leather,NA
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,wood,NA
+ZWE,Africa,Sub-Saharan_Africa,Zimbabwe,LIC,3190.506591796875,12500525,1449752,yard_garden_green_waste,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,food_organic_waste,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,glass,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,metal,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,other,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,paper_cardboard,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,plastic,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,rubber_leather,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,wood,NA
+AFG,Asia,South_Asia,Afghanistan,LIC,2057.062255859375,34656032,5628525.37,yard_garden_green_waste,NA
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,food_organic_waste,57
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,glass,3.2
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,metal,3.4
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,other,17.4
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,paper_cardboard,6.7
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,plastic,11.4
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,rubber_leather,0.3
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,wood,0.6
+ARM,Asia,Europe_Central_Asia,Armenia,UMC,11019.8388671875,2906220,492800,yard_garden_green_waste,NA
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,food_organic_waste,45.19
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,glass,5.28
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,metal,3.49
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,other,13.73
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,paper_cardboard,10.93
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,plastic,7.87
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,rubber_leather,3.09
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,wood,NA
+AZE,Asia,Europe_Central_Asia,Azerbaijan,UMC,14853.91015625,9649341,2930349,yard_garden_green_waste,10.42
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,food_organic_waste,59.1
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,glass,3.4
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,metal,2.1
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,other,15.2
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,paper_cardboard,12.8
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,plastic,7.4
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,rubber_leather,NA
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,wood,NA
+BHR,Asia,Middle_East_North_Africa,Bahrain,HIC,47937.77734375,1425171,951942.96945,yard_garden_green_waste,NA
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,food_organic_waste,80.57999999999998
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,glass,0.44
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,metal,0.5
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,other,8.59
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,paper_cardboard,3.04
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,plastic,4.67
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,rubber_leather,1.08
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,wood,NA
+BGD,Asia,South_Asia,Bangladesh,LMC,3195.737060546875,155727056,14778497.33,yard_garden_green_waste,1.1
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,food_organic_waste,58
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,glass,4
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,metal,1
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,other,7
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,paper_cardboard,17
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,plastic,13
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,rubber_leather,NA
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,wood,NA
+BTN,Asia,South_Asia,Bhutan,LMC,6743.01611328125,686958,111314.05,yard_garden_green_waste,NA
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,food_organic_waste,36
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,glass,3
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,metal,4
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,other,15
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,paper_cardboard,18
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,plastic,16
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,rubber_leather,1
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,wood,1
+BRN,Asia,East_Asia_Pacific,Brunei Darussalam,HIC,60865.98828125,423196,216253.15599999996,yard_garden_green_waste,6
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,food_organic_waste,66.6
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,glass,2.6
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,metal,2
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,other,10.4
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,paper_cardboard,4
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,plastic,8.6
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,rubber_leather,NA
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,wood,5.8
+KHM,Asia,East_Asia_Pacific,Cambodia,LMC,3364.27880859375,15270790,1089000,yard_garden_green_waste,NA
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,food_organic_waste,61.2
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,glass,2.1
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,metal,1.1
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,other,13.1
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,paper_cardboard,9.6
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,plastic,9.8
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,rubber_leather,1.3
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,wood,1.8
+CHN,Asia,East_Asia_Pacific,China,UMC,16092.30078125,1400050048,395081376,yard_garden_green_waste,NA
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,food_organic_waste,41.47
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,glass,2.66
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,metal,3.25
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,other,10.07
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,paper_cardboard,25.7
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,plastic,14.77
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,rubber_leather,NA
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,wood,2.08
+CYP,Asia,Europe_Central_Asia,Cyprus,HIC,39544.68359375,1198575,769485.125,yard_garden_green_waste,NA
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,food_organic_waste,39
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,glass,3
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,metal,5
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,other,16
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,paper_cardboard,34
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,plastic,3
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,rubber_leather,NA
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,wood,NA
+GEO,Asia,Europe_Central_Asia,Georgia,LMC,12605.1396484375,3717100,800000,yard_garden_green_waste,NA
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,food_organic_waste,35
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,glass,3
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,metal,2
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,other,14
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,paper_cardboard,22
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,plastic,21
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,rubber_leather,NA
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,wood,3
+HKG,Asia,East_Asia_Pacific,"Hong Kong SAR, China",HIC,57215.96875,7305700,5679816.465,yard_garden_green_waste,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,food_organic_waste,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,glass,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,metal,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,other,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,paper_cardboard,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,plastic,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,rubber_leather,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,wood,NA
+IND,Asia,South_Asia,India,LMC,6496.8076171875,1352617344,189750000,yard_garden_green_waste,NA
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,food_organic_waste,53.8
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,glass,2.5
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,metal,1.8
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,other,12.9
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,paper_cardboard,14.9
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,plastic,14
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,rubber_leather,NA
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,wood,NA
+IDN,Asia,East_Asia_Pacific,Indonesia,LMC,10531.1982421875,261115456,65200000,yard_garden_green_waste,NA
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,food_organic_waste,72.9
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,glass,1.9
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,metal,2.3
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,other,5
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,paper_cardboard,7.3
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,plastic,8.5
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,rubber_leather,1.1
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,wood,1.3
+IRN,Asia,Middle_East_North_Africa,"Iran, Islamic Rep.",UMC,14535.8623046875,80277424,17885000,yard_garden_green_waste,NA
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,food_organic_waste,68.7
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,glass,2.3
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,metal,0.98
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,other,6
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,paper_cardboard,9.6
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,plastic,5.29
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,rubber_leather,5.09
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,wood,0.85
+IRQ,Asia,Middle_East_North_Africa,Iraq,UMC,10310.6796875,36115648,13140000,yard_garden_green_waste,0.93
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,food_organic_waste,34
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,glass,3
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,metal,3
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,other,16
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,paper_cardboard,24
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,plastic,18
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,rubber_leather,NA
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,wood,NA
+ISR,Asia,Middle_East_North_Africa,Israel,HIC,37687.74609375,8380100,5400000,yard_garden_green_waste,2
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,food_organic_waste,36
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,glass,5
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,metal,4
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,other,6
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,paper_cardboard,33
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,plastic,11
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,rubber_leather,1
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,wood,4
+JPN,Asia,East_Asia_Pacific,Japan,HIC,41309.95703125,126529104,42720000,yard_garden_green_waste,NA
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,food_organic_waste,50
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,glass,2
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,metal,1.5
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,other,15.5
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,paper_cardboard,15
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,plastic,16
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,rubber_leather,NA
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,wood,NA
+JOR,Asia,Middle_East_North_Africa,Jordan,UMC,10413.17578125,8413464,2529997,yard_garden_green_waste,NA
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,food_organic_waste,30
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,glass,5
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,metal,3
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,other,7
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,paper_cardboard,25
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,plastic,25
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,rubber_leather,NA
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,wood,2.5
+KAZ,Asia,Europe_Central_Asia,Kazakhstan,UMC,22702.580078125,16791424,4659740,yard_garden_green_waste,NA
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,food_organic_waste,30
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,glass,2.5
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,metal,2.6
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,other,NA
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,paper_cardboard,41
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,plastic,24.3
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,rubber_leather,NA
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,wood,NA
+KOR,Asia,East_Asia_Pacific,"Korea, Rep.",HIC,42105.28125,51606632,20452776,yard_garden_green_waste,NA
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,food_organic_waste,45
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,glass,4
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,metal,2
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,other,8
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,paper_cardboard,20
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,plastic,20
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,rubber_leather,NA
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,wood,1
+KWT,Asia,Middle_East_North_Africa,Kuwait,HIC,58810.30078125,2998083,1750000,yard_garden_green_waste,1
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,food_organic_waste,NA
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,glass,NA
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,metal,NA
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,other,NA
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,paper_cardboard,NA
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,plastic,NA
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,rubber_leather,NA
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,wood,NA
+KGZ,Asia,Europe_Central_Asia,Kyrgyz Republic,LMC,4805.14111328125,5956900,1113300,yard_garden_green_waste,NA
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,food_organic_waste,16.9
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,glass,9.3
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,metal,3.7
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,other,20.3
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,paper_cardboard,2.8
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,plastic,6.1
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,rubber_leather,1.1
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,wood,38.2
+LAO,Asia,East_Asia_Pacific,Lao PDR,LMC,6543.6669921875,6663967,351900,yard_garden_green_waste,1.2
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,food_organic_waste,52.5
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,glass,3.5
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,metal,5.5
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,other,11
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,paper_cardboard,16
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,plastic,11.5
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,rubber_leather,NA
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,wood,NA
+LBN,Asia,Middle_East_North_Africa,Lebanon,UMC,16966.740234375,5603279,2040000,yard_garden_green_waste,NA
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,food_organic_waste,3.1
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,glass,3.3
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,metal,1.7
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,other,3.1
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,paper_cardboard,58.7
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,plastic,7.9
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,rubber_leather,NA
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,wood,22.3
+MAC,Asia,East_Asia_Pacific,"Macao SAR, China",HIC,117335.5859375,612167,377942,yard_garden_green_waste,NA
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,food_organic_waste,46
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,glass,3
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,metal,3
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,other,9
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,paper_cardboard,14
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,plastic,15
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,rubber_leather,3
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,wood,7
+MYS,Asia,East_Asia_Pacific,Malaysia,UMC,23906.265625,30228016,12982685,yard_garden_green_waste,NA
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,food_organic_waste,22.7
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,glass,NA
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,metal,NA
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,other,50.1
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,paper_cardboard,12.7
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,plastic,14.5
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,rubber_leather,NA
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,wood,NA
+MNG,Asia,East_Asia_Pacific,Mongolia,LMC,10940.4150390625,3027398,2900000,yard_garden_green_waste,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,food_organic_waste,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,glass,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,metal,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,other,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,paper_cardboard,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,plastic,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,rubber_leather,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,wood,NA
+MMR,Asia,East_Asia_Pacific,Myanmar,LMC,1093.7880859375,46095464,4677306.52914,yard_garden_green_waste,NA
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,food_organic_waste,52.39
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,glass,4.36
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,metal,1.9
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,other,7.12
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,paper_cardboard,18.21
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,plastic,15.14
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,rubber_leather,0.9
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,wood,NA
+NPL,Asia,South_Asia,Nepal,LIC,2902.249267578125,28982772,1768977.49,yard_garden_green_waste,NA
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,food_organic_waste,27
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,glass,6
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,metal,NA
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,other,24
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,paper_cardboard,15
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,plastic,21
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,rubber_leather,NA
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,wood,2
+OMN,Asia,Middle_East_North_Africa,Oman,HIC,30535.833984375,3960925,1734885.15,yard_garden_green_waste,5
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,food_organic_waste,30
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,glass,6
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,metal,4
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,other,20
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,paper_cardboard,13
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,plastic,9
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,rubber_leather,2
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,wood,2
+PAK,Asia,South_Asia,Pakistan,LMC,4571.41455078125,193203472,30760000,yard_garden_green_waste,14
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,food_organic_waste,52.31
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,glass,2.34
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,metal,4.22
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,other,21.52
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,paper_cardboard,8.7
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,plastic,10.55
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,rubber_leather,0.37
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,wood,NA
+PHL,Asia,East_Asia_Pacific,Philippines,LMC,7705.04541015625,103320224,14631922.9,yard_garden_green_waste,NA
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,food_organic_waste,57
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,glass,4
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,metal,9
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,other,5
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,paper_cardboard,11
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,plastic,14
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,rubber_leather,NA
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,wood,NA
+QAT,Asia,Middle_East_North_Africa,Qatar,HIC,96261.6640625,2109568,1000990.016,yard_garden_green_waste,NA
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,food_organic_waste,45.5
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,glass,4
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,metal,5
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,other,2.5
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,paper_cardboard,27
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,plastic,11
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,rubber_leather,NA
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,wood,5
+SAU,Asia,Middle_East_North_Africa,Saudi Arabia,HIC,48921.23046875,31557144,16125700.584,yard_garden_green_waste,NA
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,food_organic_waste,10.51
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,glass,0.93
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,metal,19.12
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,other,32.3
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,paper_cardboard,14.86
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,plastic,10.58
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,rubber_leather,1.96
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,wood,5.5
+SGP,Asia,East_Asia_Pacific,Singapore,HIC,97341.46875,5703600,1870000,yard_garden_green_waste,4.26
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,food_organic_waste,62
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,glass,2
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,metal,3
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,other,13
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,paper_cardboard,7
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,plastic,7
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,rubber_leather,NA
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,wood,6
+LKA,Asia,South_Asia,Sri Lanka,LMC,12287.47265625,21203000,2631650,yard_garden_green_waste,NA
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,food_organic_waste,57
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,glass,3
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,metal,4
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,other,22
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,paper_cardboard,7
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,plastic,7
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,rubber_leather,NA
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,wood,NA
+SYR,Asia,Middle_East_North_Africa,Syrian Arab Republic,LIC,8587.05078125,20824892,4500000,yard_garden_green_waste,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,food_organic_waste,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,glass,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,metal,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,other,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,paper_cardboard,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,plastic,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,rubber_leather,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,wood,NA
+TJK,Asia,Europe_Central_Asia,Tajikistan,LIC,2616.4755859375,8177809,1787400,yard_garden_green_waste,NA
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,food_organic_waste,65.52
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,glass,3.04
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,metal,1.85
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,other,4.74
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,paper_cardboard,7.6
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,plastic,17.59
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,rubber_leather,0.46
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,wood,0.8
+THA,Asia,East_Asia_Pacific,Thailand,UMC,16301.5380859375,68657600,26853366,yard_garden_green_waste,NA
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,food_organic_waste,43.6
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,glass,5.5
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,metal,10
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,other,9.3
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,paper_cardboard,10.9
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,plastic,16.5
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,rubber_leather,4.2
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,wood,NA
+TLS,Asia,East_Asia_Pacific,Timor-Leste,LMC,3344.57373046875,1268671,63875,yard_garden_green_waste,NA
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,food_organic_waste,64
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,glass,2
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,metal,1
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,other,24
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,paper_cardboard,6
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,plastic,3
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,rubber_leather,NA
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,wood,NA
+TUR,Asia,Europe_Central_Asia,Turkey,UMC,28289.087890625,83429616,35374156,yard_garden_green_waste,NA
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,food_organic_waste,16.18
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,glass,4.64
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,metal,11.44
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,other,62.540000000000006
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,paper_cardboard,NA
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,plastic,2.19
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,rubber_leather,NA
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,wood,3.01
+TKM,Asia,Europe_Central_Asia,Turkmenistan,UMC,11471.1865234375,5366277,500000,yard_garden_green_waste,NA
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,food_organic_waste,39
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,glass,4
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,metal,3
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,other,10
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,paper_cardboard,25
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,plastic,19
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,rubber_leather,NA
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,wood,NA
+ARE,Asia,Middle_East_North_Africa,United Arab Emirates,HIC,67119.1328125,9770529,5617682,yard_garden_green_waste,NA
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,food_organic_waste,40
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,glass,3
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,metal,2
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,other,17.5
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,paper_cardboard,17.5
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,plastic,2.5
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,rubber_leather,1.5
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,wood,4
+UZB,Asia,Europe_Central_Asia,Uzbekistan,LMC,5164.2744140625,29774500,4000000,yard_garden_green_waste,NA
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,food_organic_waste,61.9
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,glass,2.18
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,metal,0.58
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,other,15.18
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,paper_cardboard,5.2
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,plastic,12.15
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,rubber_leather,0.6
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,wood,3.74
+VNM,Asia,East_Asia_Pacific,Vietnam,LMC,5089.4111328125,86932496,9570300,yard_garden_green_waste,NA
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,food_organic_waste,59.1
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,glass,2.4
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,metal,2.7
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,other,11.5
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,paper_cardboard,10.1
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,plastic,14.2
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,rubber_leather,NA
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,wood,NA
+PSE,Asia,Middle_East_North_Africa,West Bank and Gaza,LMC,5985.68310546875,4046901,1387000,yard_garden_green_waste,NA
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,food_organic_waste,65
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,glass,1
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,metal,6
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,other,6
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,paper_cardboard,7
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,plastic,10
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,rubber_leather,1
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,wood,3
+YEM,Asia,Middle_East_North_Africa,"Yemen, Rep.",LIC,8269.671875,27584212,4836820,yard_garden_green_waste,1
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,food_organic_waste,51.4
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,glass,4.5
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,metal,4.8
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,other,15.21
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,paper_cardboard,9.9
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,plastic,9.6
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,rubber_leather,NA
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,wood,4.6
+ALB,Europe,Europe_Central_Asia,Albania,UMC,13724.05859375,2854191,1087446.75,yard_garden_green_waste,NA
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,food_organic_waste,31.2
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,glass,8.2
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,metal,2.6
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,other,11.6
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,paper_cardboard,35.1
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,plastic,11.3
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,rubber_leather,NA
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,wood,NA
+AND,Europe,Europe_Central_Asia,Andorra,HIC,43711.80078125,82431,43000,yard_garden_green_waste,NA
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,food_organic_waste,31.4
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,glass,7
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,metal,4.4
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,other,18.5
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,paper_cardboard,19.7
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,plastic,11.1
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,rubber_leather,NA
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,wood,7.9
+AUT,Europe,Europe_Central_Asia,Austria,HIC,56029.61328125,8877067,5219715.5,yard_garden_green_waste,NA
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,food_organic_waste,30
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,glass,8
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,metal,2
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,other,35
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,paper_cardboard,5
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,plastic,12
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,rubber_leather,6
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,wood,2
+BLR,Europe,Europe_Central_Asia,Belarus,UMC,18307.51953125,9489616,4280000,yard_garden_green_waste,NA
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,food_organic_waste,14.18
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,glass,3.1
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,metal,1.91
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,other,40.14
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,paper_cardboard,18.38
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,plastic,13.94
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,rubber_leather,NA
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,wood,2.37
+BEL,Europe,Europe_Central_Asia,Belgium,HIC,51914.9140625,11484055,4765883,yard_garden_green_waste,5.84
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,food_organic_waste,NA
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,glass,NA
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,metal,NA
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,other,92.7
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,paper_cardboard,4.9
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,plastic,NA
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,rubber_leather,NA
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,wood,NA
+BIH,Europe,Europe_Central_Asia,Bosnia and Herzegovina,UMC,12671.0078125,3535961,1248718,yard_garden_green_waste,2.4
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,food_organic_waste,24.35
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,glass,5.83
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,metal,1.98
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,other,17.93
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,paper_cardboard,14.18
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,plastic,12.15
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,rubber_leather,1.96
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,wood,2.48
+BGR,Europe,Europe_Central_Asia,Bulgaria,UMC,22279.361328125,7025037,2859190,yard_garden_green_waste,19.18
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,food_organic_waste,30.9
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,glass,3.7
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,metal,2.1
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,other,11.5
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,paper_cardboard,23.2
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,plastic,22.9
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,rubber_leather,NA
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,wood,NA
+HRV,Europe,Europe_Central_Asia,Croatia,HIC,28829.35546875,4067500,1810037.5,yard_garden_green_waste,5.7
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,food_organic_waste,62.3
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,glass,2.4
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,metal,8.4
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,other,14.899999999999997
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,paper_cardboard,9.1
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,plastic,2.2
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,rubber_leather,NA
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,wood,0.7
+CZE,Europe,Europe_Central_Asia,Czech Republic,HIC,40836.328125,10669709,5334854.5,yard_garden_green_waste,NA
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,food_organic_waste,12.78
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,glass,5.78
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,metal,6.29
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,other,23.86
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,paper_cardboard,11.57
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,plastic,1.61
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,rubber_leather,0
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,wood,7.65
+DNK,Europe,Europe_Central_Asia,Denmark,HIC,57821.19921875,5818553,4910858.5,yard_garden_green_waste,30.46
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,food_organic_waste,36.7
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,glass,8.3
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,metal,2.6
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,other,15.9
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,paper_cardboard,17.5
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,plastic,18.6
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,rubber_leather,NA
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,wood,0.4
+EST,Europe,Europe_Central_Asia,Estonia,HIC,36956.28515625,1326590,489511.71875,yard_garden_green_waste,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,food_organic_waste,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,glass,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,metal,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,other,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,paper_cardboard,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,plastic,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,rubber_leather,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,wood,NA
+FRO,Europe,Europe_Central_Asia,Faeroe Islands,HIC,44402.87890625,48842,61000,yard_garden_green_waste,NA
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,food_organic_waste,35.88
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,glass,9.24
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,metal,1.7
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,other,13.13
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,paper_cardboard,37.83
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,plastic,1.45
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,rubber_leather,NA
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,wood,0.73
+FIN,Europe,Europe_Central_Asia,Finland,HIC,48814.30859375,5520314,3124497.75,yard_garden_green_waste,NA
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,food_organic_waste,32
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,glass,10
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,metal,3
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,other,26
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,paper_cardboard,20
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,plastic,9
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,rubber_leather,NA
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,wood,NA
+FRA,Europe,Europe_Central_Asia,France,HIC,46110.18359375,67059888,36748820,yard_garden_green_waste,NA
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,food_organic_waste,30
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,glass,10
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,metal,1.4
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,other,17.7
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,paper_cardboard,24
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,plastic,13
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,rubber_leather,4
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,wood,NA
+DEU,Europe,Europe_Central_Asia,Germany,HIC,53784.78125,83132800,50627876,yard_garden_green_waste,NA
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,food_organic_waste,40
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,glass,3
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,metal,3
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,other,9
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,paper_cardboard,29
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,plastic,14
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,rubber_leather,2
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,wood,NA
+GRC,Europe,Europe_Central_Asia,Greece,HIC,30465.44921875,10716322,5615352.5,yard_garden_green_waste,NA
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,food_organic_waste,22.5
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,glass,3.5
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,metal,1.8
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,other,45.9
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,paper_cardboard,13.4
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,plastic,13
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,rubber_leather,NA
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,wood,NA
+HUN,Europe,Europe_Central_Asia,Hungary,HIC,32643.490234375,9769949,3780970.25,yard_garden_green_waste,NA
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,food_organic_waste,10
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,glass,NA
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,metal,NA
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,other,NA
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,paper_cardboard,38
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,plastic,9
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,rubber_leather,NA
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,wood,29
+ISL,Europe,Europe_Central_Asia,Iceland,HIC,55274.1875,343400,225270.40625,yard_garden_green_waste,14
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,food_organic_waste,16.6
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,glass,8.5
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,metal,3.7
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,other,25.8
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,paper_cardboard,25
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,plastic,12.4
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,rubber_leather,NA
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,wood,1.9
+IRL,Europe,Europe_Central_Asia,Ireland,HIC,83388.71875,4867316,2910655,yard_garden_green_waste,6.1
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,food_organic_waste,NA
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,glass,NA
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,metal,NA
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,other,NA
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,paper_cardboard,NA
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,plastic,NA
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,rubber_leather,NA
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,wood,NA
+IMN,Europe,Europe_Central_Asia,Isle of Man,HIC,44203.62109375,80759,50551,yard_garden_green_waste,NA
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,food_organic_waste,34.4
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,glass,7.6
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,metal,4.3
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,other,15.4
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,paper_cardboard,22.8
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,plastic,11.6
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,rubber_leather,NA
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,wood,3.8
+ITA,Europe,Europe_Central_Asia,Italy,HIC,42419.72265625,60297396,30088400,yard_garden_green_waste,NA
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,food_organic_waste,46.7
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,glass,21.4
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,metal,2.6
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,other,9.7
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,paper_cardboard,6.1
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,plastic,7.7
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,rubber_leather,3.6
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,wood,2.4
+LVA,Europe,Europe_Central_Asia,Latvia,HIC,30982.173828125,1912789,839714.375,yard_garden_green_waste,NA
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,food_organic_waste,37.6
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,glass,5
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,metal,12.5
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,other,9.1
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,paper_cardboard,30.3
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,plastic,5.4
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,rubber_leather,NA
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,wood,NA
+LIE,Europe,Europe_Central_Asia,Liechtenstein,HIC,45726.98828125,36545,32382,yard_garden_green_waste,NA
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,food_organic_waste,40.4
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,glass,8.65
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,metal,2.75
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,other,44.05
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,paper_cardboard,10.05
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,plastic,10.15
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,rubber_leather,NA
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,wood,0.6
+LTU,Europe,Europe_Central_Asia,Lithuania,HIC,37278.3046875,2786844,1315390.375,yard_garden_green_waste,NA
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,food_organic_waste,30
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,glass,4
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,metal,2
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,other,27
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,paper_cardboard,19
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,plastic,18
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,rubber_leather,NA
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,wood,NA
+LUX,Europe,Europe_Central_Asia,Luxembourg,HIC,114323.40625,619896,490337.75,yard_garden_green_waste,NA
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,food_organic_waste,29.3
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,glass,4.1
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,metal,2.5
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,other,19.8
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,paper_cardboard,12.8
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,plastic,13.900000000000002
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,rubber_leather,0.9
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,wood,0.7
+MKD,Europe,Europe_Central_Asia,"Macedonia, FYR",UMC,16147.7294921875,2082958,626970.375,yard_garden_green_waste,16
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,food_organic_waste,52
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,glass,6
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,metal,4
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,other,9.5
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,paper_cardboard,18
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,plastic,12
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,rubber_leather,NA
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,wood,NA
+MLT,Europe,Middle_East_North_Africa,Malta,HIC,43707.5390625,502653,348841.1875,yard_garden_green_waste,NA
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,food_organic_waste,55
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,glass,4
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,metal,3
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,other,23
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,paper_cardboard,5
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,plastic,10
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,rubber_leather,NA
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,wood,NA
+MDA,Europe,Europe_Central_Asia,Moldova,LMC,10360.830078125,3554108,3981200,yard_garden_green_waste,NA
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,food_organic_waste,NA
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,glass,3
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,metal,2.2
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,other,NA
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,paper_cardboard,2.2
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,plastic,1
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,rubber_leather,NA
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,wood,NA
+MCO,Europe,Europe_Central_Asia,Monaco,HIC,43711.80078125,37783,46000,yard_garden_green_waste,NA
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,food_organic_waste,33.82
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,glass,8.97
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,metal,2.9
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,other,19.46
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,paper_cardboard,13.72
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,plastic,18.42
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,rubber_leather,NA
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,wood,2.7
+MNE,Europe,Europe_Central_Asia,Montenegro,UMC,20752.62109375,622227,329780.3125,yard_garden_green_waste,NA
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,food_organic_waste,35
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,glass,5.4
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,metal,4.3
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,other,20.24
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,paper_cardboard,21
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,plastic,14
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,rubber_leather,NA
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,wood,NA
+NLD,Europe,Europe_Central_Asia,Netherlands,HIC,56849.375,17332850,8805088,yard_garden_green_waste,NA
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,food_organic_waste,15.49
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,glass,4.6
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,metal,6.12
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,other,13.15
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,paper_cardboard,26.57
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,plastic,2.25
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,rubber_leather,NA
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,wood,17.21
+NOR,Europe,Europe_Central_Asia,Norway,HIC,64962.26171875,5347896,4149967.25,yard_garden_green_waste,14.68
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,food_organic_waste,37.27
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,glass,10.07
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,metal,2.17
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,other,26.69
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,paper_cardboard,11.27
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,plastic,12.13
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,rubber_leather,NA
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,wood,0.4
+POL,Europe,Europe_Central_Asia,Poland,HIC,33221.54296875,37970872,12758213,yard_garden_green_waste,NA
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,food_organic_waste,36.49
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,glass,6.73
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,metal,1.85
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,other,27.680000000000003
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,paper_cardboard,13.64
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,plastic,10.72
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,rubber_leather,NA
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,wood,0.93
+PRT,Europe,Europe_Central_Asia,Portugal,HIC,34961.9453125,10269417,5268211,yard_garden_green_waste,1.94
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,food_organic_waste,56.26
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,glass,4.89
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,metal,2.5
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,other,10.68
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,paper_cardboard,11.34
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,plastic,12.33
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,rubber_leather,NA
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,wood,2
+ROU,Europe,Europe_Central_Asia,Romania,UMC,29983.556640625,19356544,5419832.5,yard_garden_green_waste,NA
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,food_organic_waste,28.41
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,glass,16.82
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,metal,1.83
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,other,19.03
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,paper_cardboard,19.7
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,plastic,14.21
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,rubber_leather,NA
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,wood,NA
+RUS,Europe,Europe_Central_Asia,Russian Federation,UMC,26012.849609375,143201680,60000000,yard_garden_green_waste,NA
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,food_organic_waste,5.35
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,glass,5.61
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,metal,0.9
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,other,65.56
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,paper_cardboard,13.21
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,plastic,5.6
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,rubber_leather,NA
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,wood,1.28
+SMR,Europe,Europe_Central_Asia,San Marino,HIC,58806.19921875,33203,17174.68,yard_garden_green_waste,2.49
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,food_organic_waste,37.62
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,glass,5.44
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,metal,1.38
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,other,16.72
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,paper_cardboard,13.57
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,plastic,12.73
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,rubber_leather,0.4
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,wood,NA
+SRB,Europe,Europe_Central_Asia,Serbia,UMC,18351.2734375,6944975,2347401.5,yard_garden_green_waste,12.14
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,food_organic_waste,42
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,glass,19
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,metal,2
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,other,1
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,paper_cardboard,25
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,plastic,11
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,rubber_leather,NA
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,wood,NA
+SVK,Europe,Europe_Central_Asia,Slovak Republic,HIC,31965.76171875,5454073,2296164.75,yard_garden_green_waste,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,food_organic_waste,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,glass,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,metal,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,other,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,paper_cardboard,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,plastic,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,rubber_leather,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,wood,NA
+SVN,Europe,Europe_Central_Asia,Slovenia,HIC,39037.93359375,2087946,1052324.75,yard_garden_green_waste,NA
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,food_organic_waste,49
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,glass,8
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,metal,3
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,other,14
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,paper_cardboard,15
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,plastic,9
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,rubber_leather,NA
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,wood,2
+ESP,Europe,Europe_Central_Asia,Spain,HIC,40985.55859375,47076780,22408548,yard_garden_green_waste,NA
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,food_organic_waste,23.34
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,glass,9.15
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,metal,9.2
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,other,NA
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,paper_cardboard,36.4
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,plastic,6.58
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,rubber_leather,NA
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,wood,NA
+SWE,Europe,Europe_Central_Asia,Sweden,HIC,52608.7109375,10285453,4618168.5,yard_garden_green_waste,15.33
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,food_organic_waste,29
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,glass,4
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,metal,3
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,other,29
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,paper_cardboard,20
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,plastic,15
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,rubber_leather,NA
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,wood,NA
+CHE,Europe,Europe_Central_Asia,Switzerland,HIC,68394.2890625,8574832,6079556,yard_garden_green_waste,NA
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,food_organic_waste,37
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,glass,5
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,metal,4
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,other,22
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,paper_cardboard,25
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,plastic,7
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,rubber_leather,NA
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,wood,NA
+UKR,Europe,Europe_Central_Asia,Ukraine,LMC,11534.6376953125,45004644,15242025,yard_garden_green_waste,NA
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,food_organic_waste,16.7
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,glass,2.2
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,metal,3.5
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,other,28.2
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,paper_cardboard,18.9
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,plastic,20.2
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,rubber_leather,NA
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,wood,7.6
+GBR,Europe,Europe_Central_Asia,United Kingdom,HIC,46290.12109375,66460344,30771140,yard_garden_green_waste,2.7
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,food_organic_waste,46
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,glass,7
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,metal,7
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,other,12
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,paper_cardboard,15
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,plastic,13
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,rubber_leather,NA
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,wood,NA
+ATG,North America,Latin_America,Antigua and Barbuda,HIC,17965.501953125,96777,30585,yard_garden_green_waste,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,food_organic_waste,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,glass,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,metal,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,other,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,paper_cardboard,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,plastic,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,rubber_leather,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,wood,NA
+ABW,North America,Latin_America,Aruba,HIC,35563.3125,103187,88132.0167,yard_garden_green_waste,NA
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,food_organic_waste,46
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,glass,7
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,metal,7
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,other,12
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,paper_cardboard,15
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,plastic,13
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,rubber_leather,NA
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,wood,NA
+BHS,North America,Latin_America,"Bahamas, The",HIC,35400.08203125,386838,264000,yard_garden_green_waste,NA
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,food_organic_waste,18.3
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,glass,3.7
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,metal,4.9
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,other,5.7
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,paper_cardboard,19.7
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,plastic,17.1
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,rubber_leather,12.1
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,wood,NA
+BRB,North America,Latin_America,Barbados,HIC,15444.74609375,280601,174815.44444444444,yard_garden_green_waste,18.6
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,food_organic_waste,47
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,glass,8
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,metal,5
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,other,5
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,paper_cardboard,16
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,plastic,19
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,rubber_leather,NA
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,wood,NA
+BLZ,North America,Latin_America,Belize,UMC,7259.0244140625,359288,101378.83030000002,yard_garden_green_waste,NA
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,food_organic_waste,17
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,glass,9
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,metal,6
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,other,26
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,paper_cardboard,29
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,plastic,13
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,rubber_leather,NA
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,wood,NA
+BMU,North America,North_America,Bermuda,HIC,80982.3671875,64798,82000,yard_garden_green_waste,NA
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,food_organic_waste,6.5
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,glass,18.1
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,metal,8.6
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,other,4.8
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,paper_cardboard,33.5
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,plastic,6.3
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,rubber_leather,NA
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,wood,22.2
+VGB,North America,Latin_America,British Virgin Islands,HIC,24215.8828125,20645,21099.19,yard_garden_green_waste,NA
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,food_organic_waste,24
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,glass,6
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,metal,13
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,other,8
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,paper_cardboard,47
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,plastic,3
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,rubber_leather,NA
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,wood,NA
+CAN,North America,North_America,Canada,HIC,47672.078125,35544564,25103034,yard_garden_green_waste,NA
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,food_organic_waste,10.9
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,glass,3.5
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,metal,6.2
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,other,11.4
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,paper_cardboard,31.1
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,plastic,11
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,rubber_leather,NA
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,wood,7.3
+CYM,North America,Latin_America,Cayman Islands,HIC,66207.4453125,59172,60000,yard_garden_green_waste,18.6
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,food_organic_waste,58
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,glass,1
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,metal,2
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,other,7
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,paper_cardboard,21
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,plastic,11
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,rubber_leather,NA
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,wood,NA
+CRI,North America,Latin_America,Costa Rica,UMC,18168.71484375,4757575,1460000,yard_garden_green_waste,NA
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,food_organic_waste,68.9
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,glass,4.6
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,metal,1.6
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,other,3
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,paper_cardboard,12.3
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,plastic,9.6
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,rubber_leather,NA
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,wood,NA
+CUB,North America,Latin_America,Cuba,UMC,12984.7109375,11303687,2692691.98,yard_garden_green_waste,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,food_organic_waste,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,glass,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,metal,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,other,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,paper_cardboard,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,plastic,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,rubber_leather,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,wood,NA
+CUW,North America,Latin_America,Curacao,HIC,27503.7890625,153822,24703.813200000004,yard_garden_green_waste,NA
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,food_organic_waste,45
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,glass,8
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,metal,5
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,other,14
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,paper_cardboard,12
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,plastic,16
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,rubber_leather,NA
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,wood,NA
+DMA,North America,Latin_America,Dominica,UMC,11708.6396484375,72400,13176,yard_garden_green_waste,NA
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,food_organic_waste,51
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,glass,6
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,metal,3
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,other,10
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,paper_cardboard,16
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,plastic,10
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,rubber_leather,NA
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,wood,4
+DOM,North America,Latin_America,Dominican Republic,UMC,15328.3525390625,10528394,4063910,yard_garden_green_waste,NA
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,food_organic_waste,65
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,glass,4
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,metal,2
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,other,7
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,paper_cardboard,12
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,plastic,10
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,rubber_leather,NA
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,wood,NA
+SLV,North America,Latin_America,El Salvador,LMC,7328.71337890625,6164626,1648996.18,yard_garden_green_waste,NA
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,food_organic_waste,42.8
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,glass,7.1
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,metal,2
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,other,33.4
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,paper_cardboard,11.4
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,plastic,2.4
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,rubber_leather,NA
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,wood,1
+GRL,North America,Europe_Central_Asia,Greenland,HIC,43948.5625,56905,50000,yard_garden_green_waste,NA
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,food_organic_waste,27.1
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,glass,3.1
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,metal,2.4
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,other,36.5
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,paper_cardboard,13.6
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,plastic,16.4
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,rubber_leather,0.9
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,wood,NA
+GRD,North America,Latin_America,Grenada,UMC,13207.7119140625,105481,29536.113936927773,yard_garden_green_waste,NA
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,food_organic_waste,37.7144911834619
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,glass,4.391835579814286
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,metal,NA
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,other,18.01847364137028
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,paper_cardboard,16.046702153078943
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,plastic,17.290808751009344
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,rubber_leather,NA
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,wood,NA
+GTM,North America,Latin_America,Guatemala,UMC,8125.36474609375,16252429,2756740.97135,yard_garden_green_waste,6.537688691265234
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,food_organic_waste,61.3
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,glass,1.6
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,metal,2.5
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,other,16.80000000000001
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,paper_cardboard,4.1
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,plastic,12.7
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,rubber_leather,NA
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,wood,1
+HTI,North America,Latin_America,Haiti,LIC,2952.61865234375,10847334,2309852.45485,yard_garden_green_waste,NA
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,food_organic_waste,57.9
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,glass,1.27
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,metal,2.11
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,other,6.62
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,paper_cardboard,17.36
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,plastic,14.41
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,rubber_leather,0.33
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,wood,NA
+HND,North America,Latin_America,Honduras,LMC,5395.61376953125,9112867,2162027.69575,yard_garden_green_waste,NA
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,food_organic_waste,62.22
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,glass,2.81
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,metal,2.38
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,other,5.13
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,paper_cardboard,14.73
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,plastic,12.2
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,rubber_leather,NA
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,wood,0.53
+JAM,North America,Latin_America,Jamaica,UMC,9550.810546875,2881355,1051694.575,yard_garden_green_waste,NA
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,food_organic_waste,52.4
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,glass,5.9
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,metal,3.4
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,other,12.1
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,paper_cardboard,13.8
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,plastic,10.9
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,rubber_leather,NA
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,wood,NA
+MEX,North America,Latin_America,Mexico,UMC,19332.07421875,125890952,53100000,yard_garden_green_waste,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,food_organic_waste,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,glass,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,metal,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,other,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,paper_cardboard,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,plastic,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,rubber_leather,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,wood,NA
+NIC,North America,Latin_America,Nicaragua,LMC,4611.84033203125,5737723,1528816.29335,yard_garden_green_waste,NA
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,food_organic_waste,46.4
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,glass,5.8
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,metal,3.8
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,other,5.7
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,paper_cardboard,26.3
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,plastic,12
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,rubber_leather,NA
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,wood,NA
+PAN,North America,Latin_America,Panama,HIC,28436.359375,3969249,1472262.2151499998,yard_garden_green_waste,NA
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,food_organic_waste,13.1
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,glass,2.4
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,metal,10.4
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,other,23.8
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,paper_cardboard,19.4
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,plastic,10.4
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,rubber_leather,NA
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,wood,NA
+PRI,North America,Latin_America,Puerto Rico,HIC,34311.03125,3473181,4170953,yard_garden_green_waste,20.5
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,food_organic_waste,46
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,glass,7
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,metal,7
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,other,12
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,paper_cardboard,15
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,plastic,13
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,rubber_leather,NA
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,wood,NA
+SXM,North America,Latin_America,Sint Maarten (Dutch part),HIC,NA,37685,NA,yard_garden_green_waste,NA
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,food_organic_waste,27.2
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,glass,8.1
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,metal,8.8
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,other,12.2
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,paper_cardboard,20.5
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,plastic,23.2
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,rubber_leather,NA
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,wood,NA
+KNA,North America,Latin_America,St. Kitts and Nevis,HIC,25569.357421875,54288,32892.14,yard_garden_green_waste,NA
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,food_organic_waste,45
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,glass,7
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,metal,5
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,other,11
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,paper_cardboard,10
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,plastic,22
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,rubber_leather,NA
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,wood,NA
+LCA,North America,Latin_America,St. Lucia,UMC,14029.982421875,177206,77616.228,yard_garden_green_waste,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,food_organic_waste,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,glass,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,metal,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,other,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,paper_cardboard,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,plastic,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,rubber_leather,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,wood,NA
+MAF,North America,Latin_America,St. Martin (French part),HIC,30385.89453125,30959,15479.5,yard_garden_green_waste,NA
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,food_organic_waste,49.6
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,glass,5.6
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,metal,3.8
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,other,10.5
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,paper_cardboard,22.1
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,plastic,8.4
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,rubber_leather,NA
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,wood,NA
+VCT,North America,Latin_America,St. Vincent and the Grenadines,UMC,11971.9931640625,109455,31561.34925,yard_garden_green_waste,NA
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,food_organic_waste,27.15
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,glass,10.15
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,metal,3.74
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,other,17.19
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,paper_cardboard,22.6
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,plastic,19.17
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,rubber_leather,NA
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,wood,NA
+TTO,North America,Latin_America,Trinidad and Tobago,HIC,28910.908203125,1328100,727874,yard_garden_green_waste,NA
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,food_organic_waste,21.8
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,glass,20.5
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,metal,7.6
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,other,2.4
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,paper_cardboard,31.5
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,plastic,16.3
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,rubber_leather,NA
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,wood,NA
+TCA,North America,Latin_America,Turks and Caicos Islands,HIC,28174.482421875,34900,NA,yard_garden_green_waste,NA
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,food_organic_waste,14.9
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,glass,4.4
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,metal,9
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,other,3.2
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,paper_cardboard,26.6
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,plastic,12.9
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,rubber_leather,9.5
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,wood,6.2
+USA,North America,North_America,United States,HIC,61498.37109375,326687488,265224528,yard_garden_green_waste,13.3
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,food_organic_waste,46
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,glass,7
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,metal,7
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,other,12
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,paper_cardboard,15
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,plastic,13
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,rubber_leather,NA
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,wood,NA
+VIR,North America,Latin_America,Virgin Islands (U.S.),HIC,30436.564453125,105784,146500,yard_garden_green_waste,NA
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,food_organic_waste,19.7
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,glass,3.4
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,metal,7.9
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,other,25.6
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,paper_cardboard,26.4
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,plastic,12.8
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,rubber_leather,4.2
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,wood,NA
+ASM,Oceania,East_Asia_Pacific,American Samoa,UMC,11113.4423828125,55599,18989.49,yard_garden_green_waste,NA
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,food_organic_waste,48.44
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,glass,3.81
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,metal,19.38
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,other,3.46
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,paper_cardboard,17.3
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,plastic,7.61
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,rubber_leather,NA
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,wood,NA
+AUS,Oceania,East_Asia_Pacific,Australia,HIC,47784.1796875,23789338,13345000,yard_garden_green_waste,NA
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,food_organic_waste,33.2
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,glass,4.1
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,metal,1.9
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,other,3.5
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,paper_cardboard,12.5
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,plastic,7.5
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,rubber_leather,0.1
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,wood,NA
+FJI,Oceania,East_Asia_Pacific,Fiji,UMC,10787.685546875,867086,189389.594,yard_garden_green_waste,37.2
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,food_organic_waste,47
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,glass,3
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,metal,3
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,other,29
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,paper_cardboard,16
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,plastic,2
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,rubber_leather,NA
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,wood,NA
+PYF,Oceania,East_Asia_Pacific,French Polynesia,HIC,60955.7265625,273528,147000,yard_garden_green_waste,NA
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,food_organic_waste,27.3
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,glass,4.6
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,metal,9
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,other,8.7
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,paper_cardboard,28.5
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,plastic,12.4
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,rubber_leather,3.1
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,wood,6.4
+GUM,Oceania,East_Asia_Pacific,Guam,HIC,59074.94140625,159973,141500,yard_garden_green_waste,NA
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,food_organic_waste,43.6
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,glass,5.5
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,metal,10
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,other,9.3
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,paper_cardboard,10.9
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,plastic,16.5
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,rubber_leather,4.2
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,wood,NA
+KIR,Oceania,East_Asia_Pacific,Kiribati,LMC,2249.7685546875,114395,35723.8275,yard_garden_green_waste,NA
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,food_organic_waste,8
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,glass,2
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,metal,6
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,other,31
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,paper_cardboard,11
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,plastic,13
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,rubber_leather,NA
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,wood,NA
+MHL,Oceania,East_Asia_Pacific,Marshall Islands,UMC,3628.895263671875,52793,8614,yard_garden_green_waste,29
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,food_organic_waste,23.83
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,glass,7.07
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,metal,16.73
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,other,9.32
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,paper_cardboard,13.3
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,plastic,26.17
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,rubber_leather,3.58
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,wood,NA
+FSM,Oceania,East_Asia_Pacific,"Micronesia, Fed. Sts.",LMC,3440.064208984375,104937,26039.57,yard_garden_green_waste,NA
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,food_organic_waste,43.6
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,glass,5.5
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,metal,10
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,other,9.3
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,paper_cardboard,10.9
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,plastic,16.5
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,rubber_leather,4.2
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,wood,NA
+NRU,Oceania,East_Asia_Pacific,Nauru,UMC,11167.3193359375,13049,6191.7505,yard_garden_green_waste,NA
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,food_organic_waste,43.6
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,glass,5.5
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,metal,10
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,other,9.3
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,paper_cardboard,10.9
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,plastic,16.5
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,rubber_leather,4.2
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,wood,NA
+NCL,Oceania,East_Asia_Pacific,New Caledonia,HIC,57330.203125,278000,108157.384,yard_garden_green_waste,NA
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,food_organic_waste,28
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,glass,4
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,metal,4.5
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,other,37
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,paper_cardboard,7
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,plastic,8
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,rubber_leather,1
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,wood,11
+NZL,Oceania,East_Asia_Pacific,New Zealand,HIC,41857.4765625,4692700,3405000,yard_garden_green_waste,NA
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,food_organic_waste,43.6
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,glass,5.5
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,metal,10
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,other,9.3
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,paper_cardboard,10.9
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,plastic,16.5
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,rubber_leather,4.2
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,wood,NA
+MNP,Oceania,East_Asia_Pacific,Northern Mariana Islands,HIC,60955.7265625,54036,32761.4145,yard_garden_green_waste,NA
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,food_organic_waste,26
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,glass,5
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,metal,10
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,other,9
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,paper_cardboard,15
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,plastic,32
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,rubber_leather,1
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,wood,NA
+PLW,Oceania,East_Asia_Pacific,Palau,HIC,18275.025390625,21503,9426.7455,yard_garden_green_waste,2
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,food_organic_waste,31
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,glass,NA
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,metal,NA
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,other,42
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,paper_cardboard,16.6
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,plastic,10
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,rubber_leather,NA
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,wood,NA
+PNG,Oceania,East_Asia_Pacific,Papua New Guinea,LMC,3912.381103515625,7755785,1000000,yard_garden_green_waste,NA
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,food_organic_waste,42.6
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,glass,2.2
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,metal,8.8
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,other,19.4
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,paper_cardboard,7.2
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,plastic,13
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,rubber_leather,6.8
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,wood,NA
+WSM,Oceania,East_Asia_Pacific,Samoa,UMC,6210.9833984375,187665,27399.09,yard_garden_green_waste,NA
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,food_organic_waste,42.8
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,glass,6.65
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,metal,13.15
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,other,3.7
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,paper_cardboard,6.45
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,plastic,22.35
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,rubber_leather,4.9
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,wood,NA
+SLB,Oceania,East_Asia_Pacific,Solomon Islands,LMC,2596.452880859375,563513,179971.964375,yard_garden_green_waste,NA
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,food_organic_waste,51.3
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,glass,5.9
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,metal,9
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,other,8.9
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,paper_cardboard,7.4
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,plastic,13.4
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,rubber_leather,4.1
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,wood,NA
+TON,Oceania,East_Asia_Pacific,Tonga,UMC,5636.41845703125,104951,17238.20175,yard_garden_green_waste,NA
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,food_organic_waste,73.4
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,glass,5.4
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,metal,3.8
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,other,5.7
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,paper_cardboard,4.05
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,plastic,6.45
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,rubber_leather,1.2
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,wood,NA
+VUT,Oceania,East_Asia_Pacific,Vanuatu,LMC,3061.787353515625,270402,70225.489,yard_garden_green_waste,NA
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,food_organic_waste,24
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,glass,NA
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,metal,1
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,other,1
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,paper_cardboard,6
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,plastic,3
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,rubber_leather,NA
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,wood,NA
+MDV,Seven seas (open ocean),South_Asia,Maldives,UMC,17284.609375,409163,211505.78,yard_garden_green_waste,65
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,food_organic_waste,64
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,glass,2.8
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,metal,NA
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,other,8
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,paper_cardboard,13
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,plastic,12.4
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,rubber_leather,NA
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,wood,NA
+MUS,Seven seas (open ocean),Sub-Saharan_Africa,Mauritius,UMC,20646.93359375,1263473,438000,yard_garden_green_waste,NA
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,food_organic_waste,48.5
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,glass,5.2
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,metal,4.6
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,other,25.800000000000004
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,paper_cardboard,5.9
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,plastic,9.9
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,rubber_leather,0.2
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,wood,0.5
+SYC,Seven seas (open ocean),Sub-Saharan_Africa,Seychelles,HIC,23302.953125,88303,48000,yard_garden_green_waste,NA
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,food_organic_waste,38.74
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,glass,3.16
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,metal,1.84
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,other,15.36
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,paper_cardboard,13.96
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,plastic,14.61
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,rubber_leather,1.26
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,wood,1.09
+ARG,South America,Latin_America,Argentina,HIC,23550.099609375,42981516,17910550,yard_garden_green_waste,9.95
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,food_organic_waste,55.19691119691119
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,glass,2.903474903474903
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,metal,2.501930501930502
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,other,22.702702702702705
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,paper_cardboard,6.501930501930501
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,plastic,10.193050193050194
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,rubber_leather,NA
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,wood,NA
+BOL,South America,Latin_America,Bolivia,LMC,7984.41357421875,10724705,2219052,yard_garden_green_waste,NA
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,food_organic_waste,51.4
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,glass,2.4
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,metal,2.9
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,other,16.7
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,paper_cardboard,13.1
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,plastic,13.5
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,rubber_leather,NA
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,wood,NA
+BRA,South America,Latin_America,Brazil,UMC,14596.24609375,208494896,79069584,yard_garden_green_waste,NA
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,food_organic_waste,53.3
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,glass,6.6
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,metal,2.3
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,other,16
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,paper_cardboard,12.4
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,plastic,9.4
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,rubber_leather,NA
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,wood,NA
+CHL,South America,Latin_America,Chile,HIC,20361.71484375,16829442,6517000,yard_garden_green_waste,NA
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,food_organic_waste,59.58
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,glass,2.35
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,metal,1.1
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,other,15.74
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,paper_cardboard,8.4
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,plastic,12.83
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,rubber_leather,NA
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,wood,NA
+COL,South America,Latin_America,Colombia,UMC,12523.0068359375,46406648,12150120,yard_garden_green_waste,NA
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,food_organic_waste,58.67
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,glass,3.01
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,metal,1.53
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,other,13.78
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,paper_cardboard,10.25
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,plastic,11.44
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,rubber_leather,0.45
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,wood,0.86
+ECU,South America,Latin_America,Ecuador,UMC,11896.376953125,16144368,5297211.142533937,yard_garden_green_waste,NA
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,food_organic_waste,50.1
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,glass,4.7
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,metal,4.2
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,other,12.099999999999998
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,paper_cardboard,10.7
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,plastic,14.2
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,rubber_leather,1.5
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,wood,2.5
+GUY,South America,Latin_America,Guyana,UMC,9812.08984375,746556,179251.5,yard_garden_green_waste,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,food_organic_waste,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,glass,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,metal,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,other,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,paper_cardboard,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,plastic,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,rubber_leather,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,wood,NA
+PRY,South America,Latin_America,Paraguay,UMC,11810.427734375,6639119,1818501.3648,yard_garden_green_waste,NA
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,food_organic_waste,50.43
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,glass,3.05
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,metal,2.64
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,other,21.7
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,paper_cardboard,7.44
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,plastic,10.52
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,rubber_leather,1.25
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,wood,NA
+PER,South America,Latin_America,Peru,UMC,11877.083984375,30973354,8356711.13,yard_garden_green_waste,2.97
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,food_organic_waste,57
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,glass,3
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,metal,3
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,other,24
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,paper_cardboard,NA
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,plastic,11
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,rubber_leather,NA
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,wood,NA
+SUR,South America,Latin_America,Suriname,UMC,16953.802734375,526103,78619.79914999999,yard_garden_green_waste,NA
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,food_organic_waste,53.5
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,glass,3
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,metal,5
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,other,7.5
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,paper_cardboard,20
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,plastic,11
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,rubber_leather,NA
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,wood,NA
+URY,South America,Latin_America,Uruguay,HIC,20588.392578125,3431552,1260139.5086500002,yard_garden_green_waste,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,food_organic_waste,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,glass,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,metal,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,other,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,paper_cardboard,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,plastic,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,rubber_leather,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,wood,NA
+VEN,South America,Latin_America,"Venezuela, RB",UMC,14269.673828125,29893080,9779093.14,yard_garden_green_waste,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,food_organic_waste,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,glass,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,metal,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,other,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,paper_cardboard,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,plastic,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,rubber_leather,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,wood,NA
+CHI,NA,Europe_Central_Asia,Channel Islands,HIC,46672.59375,164541,178933,yard_garden_green_waste,NA
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,food_organic_waste,24.57
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,glass,4.42
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,metal,4.37
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,other,14.38
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,paper_cardboard,33.65
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,plastic,15.86
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,rubber_leather,NA
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,wood,NA
+GIB,NA,Europe_Central_Asia,Gibraltar,HIC,43711.80078125,33623,16954,yard_garden_green_waste,NA
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,food_organic_waste,42
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,glass,6
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,metal,6
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,other,20
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,paper_cardboard,8
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,plastic,11
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,rubber_leather,NA
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,wood,7
+XKX,NA,Europe_Central_Asia,Kosovo,LMC,9723.5615234375,1801800,319000,yard_garden_green_waste,NA
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,food_organic_waste,43.6
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,glass,5.5
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,metal,10
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,other,9.3
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,paper_cardboard,10.9
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,plastic,16.5
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,rubber_leather,4.2
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,wood,NA
+TUV,NA,East_Asia_Pacific,Tuvalu,UMC,3793.127685546875,11097,3989.4865,yard_garden_green_waste,NA
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,food_organic_waste,23.34
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,glass,4.11
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,metal,3.07
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,other,14.11
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,paper_cardboard,30.01
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,plastic,20.23
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,rubber_leather,0.6
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,wood,NA
+TWN,NA,East_Asia_Pacific,NA,HIC,57362.92578125,23434000,7336000,yard_garden_green_waste,4.43
